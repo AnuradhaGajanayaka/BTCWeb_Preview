@@ -6,7 +6,8 @@
     "pricing": "Pricing",
     "resources": "Resources",
     "company": "Company",
-    "blog": "Blog"
+    "blog": "Blog",
+    "home": "Home"
   },
   "cta": {
     "bookDemo": "Book a Demo",
