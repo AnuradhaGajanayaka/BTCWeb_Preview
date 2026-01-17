@@ -132,5 +132,6 @@
   "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
   "operatingTitle": "A complete operating system for clinics",
-  "operatingSub": "Reception, doctors and management \u2014 aligned in one workflow."
+  "operatingSub": "Reception, doctors and management \u2014 aligned in one workflow.",
+  "operatingImage": "assets/placeholders/os-illustration.svg"
 }
