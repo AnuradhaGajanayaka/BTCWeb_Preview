@@ -27,17 +27,17 @@
   "osSub": "Reception, doctors and management \u2014 aligned in one workflow.",
   "pillars": [
     {
-      "tag": "PILLAR 1",
+      "kicker": "PILLAR 1",
       "title": "Front Desk & Patient Experience",
       "desc": "Smart registration, quick search, token flow and portal."
     },
     {
-      "tag": "PILLAR 2",
+      "kicker": "PILLAR 2",
       "title": "Clinical Excellence",
       "desc": "SOAP notes, uploads, investigations and AI summary."
     },
     {
-      "tag": "PILLAR 3",
+      "kicker": "PILLAR 3",
       "title": "Operations & Control",
       "desc": "Dashboards, roles/permissions, inventory and reporting."
     }
@@ -143,5 +143,7 @@
     "assets/logos/logo-4.svg",
     "assets/logos/logo-5.svg",
     "assets/logos/logo-6.svg"
-  ]
+  ],
+  "operatingTitle": "A complete operating system for clinics",
+  "operatingSub": "Reception, doctors and management \u2014 aligned in one workflow."
 }
