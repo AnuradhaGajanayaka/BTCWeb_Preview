@@ -10,12 +10,8 @@
     let cur = obj;
     for (const p of parts) {
       if (cur === null || cur === undefined) return undefined;
-      // array index
-      if (/^\d+$/.test(p)) {
-        cur = cur[Number(p)];
-      } else {
-        cur = cur[p];
-      }
+      if (/^\d+$/.test(p)) cur = cur[Number(p)];
+      else cur = cur[p];
     }
     return cur;
   }
@@ -27,19 +23,21 @@
       if (val === undefined) return;
 
       if (Array.isArray(val)) {
-        // If element wants list rendering
         if (el.getAttribute("data-render") === "list") {
           el.innerHTML = val.map(v => `<li>${v}</li>`).join("");
         } else {
           el.innerHTML = val.map(v => `<div>${v}</div>`).join("");
         }
-      } else if (typeof val === "string") {
-        // allow basic inline HTML via data-html="true"
+        return;
+      }
+
+      if (typeof val === "string") {
         if (el.getAttribute("data-html") === "true") el.innerHTML = val;
         else el.textContent = val;
-      } else {
-        el.textContent = String(val);
+        return;
       }
+
+      el.textContent = String(val);
     });
   }
 
@@ -50,7 +48,6 @@
       loadJson(`content/${page}.json`)
     ]);
 
-    // apply site keys, then page overrides
     applyData(site);
     applyData(pageData);
 

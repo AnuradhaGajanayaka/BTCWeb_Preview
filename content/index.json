@@ -1,74 +1,10 @@
 {
-  "heroTag": "Trusted by modern clinics",
   "heroTitle": "Run your clinic with <span class='text-brandBlue'>less admin</span> and <span class='text-brandGreen'>more care</span>.",
-  "heroSub": "Appointments, patient records, consultation notes, treatments, pharmacy & insights \u2014 in one clean, modern system built for clinics.",
+  "heroSub": "Appointments, patient records, SOAP notes, treatments, pharmacy & insights \u2014 in one modern system.",
   "heroCtaPrimary": "Book a Demo",
   "heroCtaSecondary": "WhatsApp Sales",
-  "pillars": [
-    {
-      "title": "Front Desk & Patient Experience",
-      "desc": "Smart registration, quick search, token flow, and a branded patient portal."
-    },
-    {
-      "title": "Clinical Excellence",
-      "desc": "SOAP notes, uploads, investigations, and AI patient summary to reduce effort."
-    },
-    {
-      "title": "Operations & Control",
-      "desc": "Dashboards, role-based access, pharmacy inventory & reporting for decision-making."
-    }
-  ],
-  "features": [
-    {
-      "tag": "PATIENTS",
-      "title": "Smart registration + QR patient card",
-      "desc": "Faster reception workflow with clean patient profiles."
-    },
-    {
-      "tag": "SCHEDULING",
-      "title": "Appointments + token/queue tracking",
-      "desc": "Track patient flow and reduce waiting confusion."
-    },
-    {
-      "tag": "PORTAL",
-      "title": "Branded patient portal",
-      "desc": "Clinic URL, booking rules, and family booking support."
-    },
-    {
-      "tag": "CLINICAL",
-      "title": "SOAP notes + uploads",
-      "desc": "Store images, docs, and consultation history."
-    },
-    {
-      "tag": "TREATMENTS",
-      "title": "Treatment planning & execution",
-      "desc": "Plan future visits and record treatments during care."
-    },
-    {
-      "tag": "PHARMACY",
-      "title": "Inventory + GRN traceability",
-      "desc": "Track stock and movement per location."
-    }
-  ],
-  "testimonials": [
-    {
-      "quote": "\u201cReception is faster and the patient portal reduced phone calls significantly.\u201d",
-      "name": "Clinic Owner",
-      "meta": "Dental Clinic"
-    },
-    {
-      "quote": "\u201cSOAP notes and patient history improved our consultation flow.\u201d",
-      "name": "Consultant",
-      "meta": "Multi-doctor Clinic"
-    },
-    {
-      "quote": "\u201cInventory & reporting gives control. It\u2019s simple and modern.\u201d",
-      "name": "Clinic Manager",
-      "meta": "Skin Clinic"
-    }
-  ],
-  "ctaTitle": "See BISTEC Care in 15 minutes",
-  "ctaSub": "A quick demo to understand how clinics reduce admin and run smoother \u2014 with bank-grade security.",
+  "mockupTitle": "BISTEC Care Dashboard",
+  "mockupMeta": "Preview",
   "trustBand": [
     {
       "value": "50+",
@@ -86,5 +22,113 @@
       "value": "24/7",
       "label": "Local Support"
     }
-  ]
+  ],
+  "osTitle": "A complete operating system for clinics",
+  "osSub": "Reception, doctors and management \u2014 aligned in one workflow.",
+  "pillars": [
+    {
+      "tag": "PILLAR 1",
+      "title": "Front Desk & Patient Experience",
+      "desc": "Smart registration, quick search, token flow and portal."
+    },
+    {
+      "tag": "PILLAR 2",
+      "title": "Clinical Excellence",
+      "desc": "SOAP notes, uploads, investigations and AI summary."
+    },
+    {
+      "tag": "PILLAR 3",
+      "title": "Operations & Control",
+      "desc": "Dashboards, roles/permissions, inventory and reporting."
+    }
+  ],
+  "featuresTitle": "Key features clinics love",
+  "featuresSub": "Everything you need \u2014 without complexity.",
+  "featuresLink": "See full product \u2192",
+  "features": [
+    {
+      "tag": "PATIENTS",
+      "title": "Registration + QR card",
+      "desc": "Faster reception workflow."
+    },
+    {
+      "tag": "SCHEDULING",
+      "title": "Appointments + token flow",
+      "desc": "Track patient movement."
+    },
+    {
+      "tag": "PORTAL",
+      "title": "Branded portal",
+      "desc": "Booking rules + family booking."
+    },
+    {
+      "tag": "CLINICAL",
+      "title": "SOAP notes + uploads",
+      "desc": "Clean clinical history."
+    },
+    {
+      "tag": "TREATMENTS",
+      "title": "Treatment planning",
+      "desc": "Plan future visits."
+    },
+    {
+      "tag": "PHARMACY",
+      "title": "Inventory + GRN traceability",
+      "desc": "Control stock and movement."
+    }
+  ],
+  "dentalBadge": "Specialist Module",
+  "dentalTitle": "Dental Suite built for chair-side workflow",
+  "dentalSub": "Dental charting, BPE and planning \u2014 designed for dental clinics.",
+  "dentalBullets": [
+    "\u2022 Dental charting & history",
+    "\u2022 BPE chart",
+    "\u2022 Visual examination & planner",
+    "\u2022 Treatment planning"
+  ],
+  "dentalCta": "Explore Dental Suite",
+  "dentalMockTitle": "Replace with dental UI screenshot",
+  "testimonialsTitle": "Trusted by clinics across Sri Lanka",
+  "testimonialsSub": "Real feedback from teams using BISTEC Care daily.",
+  "testimonials": [
+    {
+      "quote": "\u201cReception is faster and the patient portal reduced phone calls.\u201d",
+      "name": "Clinic Owner",
+      "meta": "Dental Clinic"
+    },
+    {
+      "quote": "\u201cSOAP notes and patient history improved consultation flow.\u201d",
+      "name": "Consultant",
+      "meta": "Multi-doctor Clinic"
+    },
+    {
+      "quote": "\u201cInventory & reporting gives control. Simple and modern.\u201d",
+      "name": "Clinic Manager",
+      "meta": "Skin Clinic"
+    }
+  ],
+  "finalCtaTitle": "See BISTEC Care in 15 minutes",
+  "finalCtaSub": "A quick demo to understand how clinics reduce admin and run smoother \u2014 with bank-grade security.",
+  "finalCtaPrimary": "Book a Demo",
+  "finalCtaSecondary": "WhatsApp Sales",
+  "footerBlurb": "Modern practice management software for clinics.",
+  "footerCol1Title": "Product",
+  "footerCol1Links": [
+    "Overview",
+    "Dental Suite",
+    "Pricing"
+  ],
+  "footerCol2Title": "Company",
+  "footerCol2Links": [
+    "About",
+    "Contact"
+  ],
+  "footerCol3Title": "Get in touch",
+  "footerLocation": "Colombo, Sri Lanka",
+  "footerActions": [
+    "WhatsApp Sales",
+    "Book a Demo"
+  ],
+  "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
+  "privacy": "Privacy Policy"
 }
