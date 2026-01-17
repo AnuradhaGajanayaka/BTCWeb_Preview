@@ -1,5 +1,5 @@
 {
-  "topTitle": "Pricing",
+  "topTitle": "Simple pricing for clinics",
   "topDesc": "Choose a tier that matches your clinic size. Upgrade anytime.",
   "tiers": [
     {
@@ -41,24 +41,27 @@
       "cta": "Talk to Sales"
     }
   ],
-  "addons": [
-    {
-      "title": "SMS Packages",
-      "desc": "Automated reminders and notifications."
-    },
-    {
-      "title": "WhatsApp Bot",
-      "desc": "Smart booking and communication."
-    },
-    {
-      "title": "Branded Portal",
-      "desc": "Custom clinic URL + branding."
-    },
-    {
-      "title": "Integrations",
-      "desc": "Custom workflows for your clinic."
-    }
-  ],
+  "addons": {
+    "title": "Add-ons",
+    "items": [
+      {
+        "title": "SMS packages",
+        "desc": "Reminders and notifications."
+      },
+      {
+        "title": "WhatsApp bot",
+        "desc": "Smart booking & comms."
+      },
+      {
+        "title": "Branded portal",
+        "desc": "Custom clinic URL."
+      },
+      {
+        "title": "Integrations",
+        "desc": "Custom workflows."
+      }
+    ]
+  },
   "faq": [
     {
       "q": "How long does onboarding take?",
@@ -75,6 +78,46 @@
     {
       "q": "Is patient data secure?",
       "a": "Yes \u2014 bank-grade security with role-based access controls."
+    }
+  ],
+  "plans": [
+    {
+      "badge": "STARTER",
+      "title": "Clinic Starter",
+      "desc": "For single doctor / smaller practices.",
+      "features": [
+        "Appointments + queue",
+        "Patient profiles",
+        "SOAP notes",
+        "Prescriptions",
+        "Basic reports"
+      ],
+      "cta": "Get Quote"
+    },
+    {
+      "badge": "MOST POPULAR",
+      "title": "Clinic Growth",
+      "desc": "For busy clinics needing better operational control.",
+      "features": [
+        "Patient portal",
+        "Treatment planning",
+        "Inventory",
+        "Dashboards",
+        "Roles/permissions"
+      ],
+      "cta": "Book Demo"
+    },
+    {
+      "badge": "ENTERPRISE",
+      "title": "Clinic Enterprise",
+      "desc": "For multi-doctor and multi-branch groups.",
+      "features": [
+        "Multi-branch visibility",
+        "Advanced reporting",
+        "Priority support",
+        "Integrations"
+      ],
+      "cta": "Talk to Sales"
     }
   ]
 }
