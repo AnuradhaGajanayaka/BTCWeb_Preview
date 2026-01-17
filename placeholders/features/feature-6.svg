@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="48" fill="#EEF2F7"/>
+  <circle cx="240" cy="210" r="120" fill="#0F172A" opacity="0.18"/>
+  <circle cx="360" cy="230" r="140" fill="#0F172A" opacity="0.10"/>
+  <rect x="520" y="140" width="560" height="40" rx="20" fill="#0F172A" opacity="0.10"/>
+  <rect x="520" y="205" width="460" height="28" rx="14" fill="#0F172A" opacity="0.08"/>
+  <rect x="520" y="255" width="520" height="28" rx="14" fill="#0F172A" opacity="0.08"/>
+  <text x="520" y="110" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#334155" font-weight="700">Replace with feature screenshot / illustration</text>
+</svg>
