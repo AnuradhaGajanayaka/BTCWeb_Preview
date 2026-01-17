@@ -94,17 +94,20 @@
     {
       "quote": "\u201cReception is faster and the patient portal reduced phone calls.\u201d",
       "name": "Clinic Owner",
-      "meta": "Dental Clinic"
+      "meta": "Dental Clinic",
+      "image": "assets/placeholders/avatar-1.svg"
     },
     {
       "quote": "\u201cSOAP notes and patient history improved consultation flow.\u201d",
       "name": "Consultant",
-      "meta": "Multi-doctor Clinic"
+      "meta": "Multi-doctor Clinic",
+      "image": "assets/placeholders/avatar-2.svg"
     },
     {
       "quote": "\u201cInventory & reporting gives control. Simple and modern.\u201d",
       "name": "Clinic Manager",
-      "meta": "Skin Clinic"
+      "meta": "Skin Clinic",
+      "image": "assets/placeholders/avatar-3.svg"
     }
   ],
   "finalCtaTitle": "See BISTEC Care in 15 minutes",
@@ -130,5 +133,15 @@
     "Book a Demo"
   ],
   "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
-  "privacy": "Privacy Policy"
+  "privacy": "Privacy Policy",
+  "logosTitle": "Trusted by clinics across Sri Lanka",
+  "logosSub": "A few of the clinics using BISTEC Care daily.",
+  "logos": [
+    "assets/logos/logo-1.svg",
+    "assets/logos/logo-2.svg",
+    "assets/logos/logo-3.svg",
+    "assets/logos/logo-4.svg",
+    "assets/logos/logo-5.svg",
+    "assets/logos/logo-6.svg"
+  ]
 }

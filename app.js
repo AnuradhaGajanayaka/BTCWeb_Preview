@@ -53,6 +53,13 @@
   }
 
   function applyData(obj) {
+    document.querySelectorAll("[data-src]").forEach(el=>{
+      const key=el.getAttribute("data-src");
+      const val=getByPath(obj,key);
+      if(!val) return;
+      el.setAttribute("src", val);
+    });
+
     document.querySelectorAll("[data-content]").forEach(el => {
       const key = el.getAttribute("data-content");
       const val = getByPath(obj, key);

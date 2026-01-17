@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80">
+      <rect width="240" height="80" rx="16" fill="#F7FAFC" stroke="#E6EEF5"/>
+      <circle cx="44" cy="40" r="18" fill="#1D7DB6" opacity="0.18"/>
+      <circle cx="62" cy="40" r="18" fill="#32B29A" opacity="0.18"/>
+      <text x="92" y="48" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155" font-weight="700">Clinic 2</text>
+    </svg>
