@@ -1,0 +1,43 @@
+{
+  "slug": "soap-notes-in-90-seconds",
+  "title": "SOAP notes in 90 seconds: a practical clinic workflow",
+  "tags": [
+    "Clinical",
+    "Workflow"
+  ],
+  "date": "2026-01-10",
+  "readTime": "6 min read",
+  "author": "BISTEC Care Team",
+  "cover": "assets/blog/cover-1.svg",
+  "content": [
+    {
+      "type": "p",
+      "text": "SOAP notes are not just documentation \u2014 they are how a clinic stays consistent across doctors, shifts and future follow-ups."
+    },
+    {
+      "type": "h2",
+      "text": "The 90-second structure"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "S: Capture the patient\u2019s story in a sentence.",
+        "O: Add quick observations & uploaded documents.",
+        "A: Summarize the working diagnosis (or key findings).",
+        "P: Record treatment and next steps in bullet points."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Make it effortless"
+    },
+    {
+      "type": "p",
+      "text": "Use templates, dropdowns and structured fields. The best workflow is the one that doctors can complete without thinking."
+    },
+    {
+      "type": "quote",
+      "text": "Consistency creates quality \u2014 and quality reduces repeat work."
+    }
+  ]
+}

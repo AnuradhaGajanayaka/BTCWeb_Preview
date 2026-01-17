@@ -1,0 +1,69 @@
+{
+  "introTag": "Blog",
+  "introTitle": "Insights for modern clinics",
+  "introSub": "Practical guides for reception, doctors and clinic owners \u2014 from workflows to patient experience.",
+  "blogCtaTop": "Book a Demo",
+  "finalCtaTitle": "Want to see BISTEC Care in action?",
+  "finalCtaSub": "Book a quick demo and see how clinics reduce admin and run smoother.",
+  "finalCtaPrimary": "Book a Demo",
+  "finalCtaSecondary": "WhatsApp Sales",
+  "footerBlurb": "Modern practice management software for clinics.",
+  "footerCol1Title": "Product",
+  "footerCol1Links": [
+    "Overview",
+    "Dental Suite",
+    "Pricing"
+  ],
+  "footerCol2Title": "Company",
+  "footerCol2Links": [
+    "About",
+    "Contact"
+  ],
+  "footerCol3Title": "Get in touch",
+  "footerLocation": "Colombo, Sri Lanka",
+  "footerActions": [
+    "WhatsApp Sales",
+    "Book a Demo"
+  ],
+  "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
+  "privacy": "Privacy Policy",
+  "featured": "soap-notes-in-90-seconds",
+  "posts": [
+    {
+      "slug": "soap-notes-in-90-seconds",
+      "title": "SOAP notes in 90 seconds: a practical clinic workflow",
+      "excerpt": "How clinics can standardize notes, reduce missing information, and make follow-ups easier \u2014 without slowing doctors down.",
+      "date": "2026-01-10",
+      "tags": [
+        "Clinical",
+        "Workflow"
+      ],
+      "category": "Guide",
+      "cover": "assets/blog/cover-1.svg"
+    },
+    {
+      "slug": "reception-workflow-5-minutes",
+      "title": "Reception workflow: reduce waiting time in 5 steps",
+      "excerpt": "A simple front desk system to speed up registration, reduce queues, and improve patient experience.",
+      "date": "2026-01-05",
+      "tags": [
+        "Reception",
+        "Patient Experience"
+      ],
+      "category": "Operations",
+      "cover": "assets/blog/cover-2.svg"
+    },
+    {
+      "slug": "bank-grade-security-for-clinics",
+      "title": "Bank-grade security for clinics: what it means (and what to ask)",
+      "excerpt": "A non-technical checklist for clinic owners to evaluate software security: access controls, backups, audit logs, and more.",
+      "date": "2025-12-28",
+      "tags": [
+        "Security",
+        "Management"
+      ],
+      "category": "Security",
+      "cover": "assets/blog/cover-3.svg"
+    }
+  ]
+}

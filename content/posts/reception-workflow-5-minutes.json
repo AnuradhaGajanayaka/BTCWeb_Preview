@@ -1,0 +1,36 @@
+{
+  "slug": "reception-workflow-5-minutes",
+  "title": "Reception workflow: reduce waiting time in 5 steps",
+  "tags": [
+    "Reception",
+    "Patient Experience"
+  ],
+  "date": "2026-01-05",
+  "readTime": "5 min read",
+  "author": "BISTEC Care Team",
+  "cover": "assets/blog/cover-2.svg",
+  "content": [
+    {
+      "type": "p",
+      "text": "Reception is where patient experience starts. A small delay at the front desk multiplies into stress for doctors and patients."
+    },
+    {
+      "type": "h2",
+      "text": "5 steps you can implement"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Pre-register returning patients.",
+        "Use quick search + minimal fields.",
+        "Use token flow / queue visibility.",
+        "Confirm doctor availability before walk-ins.",
+        "Send SMS / WhatsApp appointment reminders."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These steps reduce rework and let your team focus on service, not paperwork."
+    }
+  ]
+}

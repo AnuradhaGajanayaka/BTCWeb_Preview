@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang='en' data-page="article">
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>BISTEC Care — Article</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>
+    tailwind.config={theme:{extend:{colors:{brandBlue:'#1D7DB6',brandGreen:'#32B29A',fog:'#F7FAFC',line:'#E6EEF5'}}}};
+  </script>
+</head>
+<body class='bg-white text-slate-900'>
+<header class='sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-line'>
+  <div class='max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4'>
+    <a href='index.html' class='flex items-center gap-3'>
+      <img src='assets/logo.png' alt='BISTEC Care' class='h-9 w-auto'/>
+      <span class='font-semibold hidden sm:block'><span data-content="brandName"></span></span>
+    </a>
+    <nav class='hidden md:flex items-center gap-7 text-sm'>
+      <a class='text-slate-700 hover:text-slate-900' href='product.html'><span data-content="nav.product"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='solutions.html'><span data-content="nav.solutions"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='dental-suite.html'><span data-content="nav.dental"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='pricing.html'><span data-content="nav.pricing"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='resources.html'><span data-content="nav.resources"></span></a>
+      <a class='text-slate-900 font-semibold' href='blog.html'><span data-content="nav.blog"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='company.html'><span data-content="nav.company"></span></a>
+    </nav>
+    <div class='flex items-center gap-3'>
+      <a href='contact.html' class='hidden sm:inline text-sm font-semibold text-slate-700 hover:text-slate-900'><span data-content="nav.whatsapp"></span></a>
+      <a href='contact.html' class='rounded-xl bg-brandBlue px-4 py-2 text-sm font-semibold text-white shadow hover:opacity-95'><span data-content="articleCtaTop"></span></a>
+    </div>
+  </div>
+</header>
+
+<section class='bg-fog'>
+  <div class='max-w-6xl mx-auto px-4 py-12'>
+    <a href='blog.html' class='text-sm font-semibold text-brandBlue hover:underline'>← <span data-content="backToBlog"></span></a>
+    <h1 class='mt-4 text-3xl md:text-4xl font-semibold tracking-tight' id="aTitle"></h1>
+    <div class='mt-3 flex flex-wrap gap-3 text-sm text-slate-600' id="aMeta"></div>
+  </div>
+</section>
+
+<section class='bg-white'>
+  <div class='max-w-6xl mx-auto px-4 py-12 grid lg:grid-cols-12 gap-10'>
+    <article class='lg:col-span-8'>
+      <img id="aCover" class='w-full rounded-3xl border border-line bg-fog object-cover max-h-[360px]' alt='' />
+      <div id="aContent" class='prose prose-slate max-w-none mt-8'></div>
+    </article>
+    <aside class='lg:col-span-4'>
+      <div class='rounded-3xl border border-line bg-fog p-6'>
+        <div class='text-sm font-semibold' data-content="sidebarTitle"></div>
+        <p class='mt-2 text-sm text-slate-600' data-content="sidebarSub"></p>
+        <div class='mt-4 flex flex-wrap gap-2' id="aTags"></div>
+        <a href='contact.html' class='mt-6 inline-flex rounded-xl bg-brandBlue px-5 py-3 text-sm font-semibold text-white shadow hover:opacity-95'><span data-content="sidebarCta"></span></a>
+      </div>
+      <div class='mt-6 rounded-3xl border border-line bg-white p-6 shadow-sm'>
+        <div class='text-sm font-semibold' data-content="relatedTitle"></div>
+        <div id="relatedList" class='mt-4 space-y-4'></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer class='border-t border-line bg-white'>
+  <div class='max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8'>
+    <div>
+      <img src='assets/logo.png' class='h-9 w-auto' alt='BISTEC Care'/>
+      <p class='mt-3 text-sm text-slate-600' data-content="footerBlurb"></p>
+    </div>
+    <div>
+      <div class='font-semibold text-sm' data-content="footerCol1Title"></div>
+      <div class='mt-3 space-y-2 text-sm text-slate-600'>
+        <a class='block hover:text-slate-900' href='product.html' data-content="footerCol1Links.0"></a>
+        <a class='block hover:text-slate-900' href='dental-suite.html' data-content="footerCol1Links.1"></a>
+        <a class='block hover:text-slate-900' href='pricing.html' data-content="footerCol1Links.2"></a>
+      </div>
+    </div>
+    <div>
+      <div class='font-semibold text-sm' data-content="footerCol2Title"></div>
+      <div class='mt-3 space-y-2 text-sm text-slate-600'>
+        <a class='block hover:text-slate-900' href='company.html' data-content="footerCol2Links.0"></a>
+        <a class='block hover:text-slate-900' href='contact.html' data-content="footerCol2Links.1"></a>
+      </div>
+    </div>
+    <div>
+      <div class='font-semibold text-sm' data-content="footerCol3Title"></div>
+      <div class='mt-3 text-sm text-slate-600 space-y-2'>
+        <div data-content="footerLocation"></div>
+        <a class='block hover:text-slate-900' href='contact.html' data-content="footerActions.0"></a>
+        <a class='block hover:text-slate-900' href='contact.html' data-content="footerActions.1"></a>
+      </div>
+    </div>
+  </div>
+  <div class='border-t border-line'>
+    <div class='max-w-6xl mx-auto px-4 py-6 text-xs text-slate-500 flex flex-wrap gap-3 justify-between'>
+      <span data-html="true" data-content="copyright"></span>
+      <span data-content="privacy"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script src="article.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "slug": "bank-grade-security-for-clinics",
+  "title": "Bank-grade security for clinics: what it means (and what to ask)",
+  "tags": [
+    "Security",
+    "Management"
+  ],
+  "date": "2025-12-28",
+  "readTime": "7 min read",
+  "author": "BISTEC Care Team",
+  "cover": "assets/blog/cover-3.svg",
+  "content": [
+    {
+      "type": "p",
+      "text": "Security isn\u2019t about technical jargon. It\u2019s about controlling access, preventing mistakes, and ensuring continuity."
+    },
+    {
+      "type": "h2",
+      "text": "Minimum checklist"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Role-based access controls",
+        "Audit logs (who did what)",
+        "Backups & restore testing",
+        "Secure hosting & encrypted data",
+        "Strong authentication policies"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If a vendor cannot answer these clearly, it\u2019s a risk \u2014 regardless of how good the UI looks."
+    }
+  ]
+}
