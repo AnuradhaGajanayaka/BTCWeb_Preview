@@ -42,9 +42,24 @@
       const key=el.getAttribute('data-content');
       const val=deepGet(data,key);
       if(val===undefined||val===null) return;
-      if(el.tagName==='A' && !el.textContent.trim()) el.textContent=val;
-      else if(el.tagName==='IMG') el.setAttribute('src',val);
-      else el.textContent=val;
+      if(el.tagName==='A' && !el.textContent.trim()) {
+        el.textContent=val;
+      } else if(el.tagName==='IMG') {
+        el.setAttribute('src',val);
+      } else if(el.dataset && el.dataset.html === 'true') {
+        // Allow limited HTML for specific headings (e.g., colored spans)
+        el.innerHTML = String(val);
+      } else {
+        el.textContent=val;
+      }
+    });
+
+    // data-src images (kept separate so we don't overload data-content)
+    document.querySelectorAll('[data-src]').forEach(img=>{
+      const key = img.getAttribute('data-src');
+      const val = deepGet(data, key);
+      if(!val) return;
+      img.setAttribute('src', val);
     });
     // active nav item
     document.querySelectorAll('[data-nav]').forEach(a=>{
