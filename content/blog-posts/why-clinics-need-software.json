@@ -1,0 +1,34 @@
+{
+  "title": "Why clinics need purpose-built software",
+  "date": "2026-01-01",
+  "author": "BISTEC Care Team",
+  "readingTime": "4 min",
+  "cover": "assets/blog-cover-1.png",
+  "sections": [
+    {
+      "type": "p",
+      "text": "Most clinics don’t struggle because doctors aren’t good. They struggle because operations are fragmented."
+    },
+    {
+      "type": "h2",
+      "text": "Paper breaks at scale"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "No reliable patient history",
+        "Reception bottlenecks",
+        "Missed follow-ups and repeat visits",
+        "No visibility for management"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What changes with a proper system"
+    },
+    {
+      "type": "p",
+      "text": "A modern clinic OS aligns reception, clinical work and operations—so the clinic runs smoothly with less admin."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "product": "Product",
+    "solutions": "Solutions",
+    "dentalSuite": "Dental Suite",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "company": "Company",
+    "blog": "Blog"
+  },
+  "cta": {
+    "bookDemo": "Book a Demo",
+    "whatsapp": "WhatsApp Sales",
+    "whatsappTop": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Modern practice management software for clinics.",
+    "colombo": "Colombo, Sri Lanka",
+    "privacy": "Privacy Policy",
+    "product": "Product",
+    "company": "Company",
+    "getInTouch": "Get in touch",
+    "overview": "Overview",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "site": {
+    "brand": "BISTEC Care"
+  }
+}

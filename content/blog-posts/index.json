@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "slug": "why-clinics-need-software",
+      "title": "Why clinics need purpose-built software",
+      "excerpt": "The hidden costs of paper-based operations and disconnected tools.",
+      "date": "2026-01-01",
+      "readingTime": "4 min",
+      "cover": "assets/blog-cover-1.png",
+      "author": "BISTEC Care Team"
+    },
+    {
+      "slug": "reduce-reception-load",
+      "title": "Reduce reception workload without adding staff",
+      "excerpt": "Simple workflow changes that cut calls, queues and admin time.",
+      "date": "2026-01-05",
+      "readingTime": "5 min",
+      "cover": "assets/blog-cover-2.png",
+      "author": "BISTEC Care Team"
+    }
+  ]
+}
