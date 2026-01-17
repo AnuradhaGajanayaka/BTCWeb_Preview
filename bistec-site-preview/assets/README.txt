@@ -1,1 +1,0 @@
-Place logo.png and ui-mockup.png here.
