@@ -17,5 +17,9 @@
     "company": "Company",
     "whatsapp": "WhatsApp",
     "blog": "Blog"
+  },
+  "cta": {
+    "bookDemo": "Book a Demo",
+    "whatsappSales": "WhatsApp Sales"
   }
 }

@@ -4,7 +4,17 @@
     return await res.json();
   }
 
-  function getByPath(obj, path) {
+  function mergeObjects(base, extra){
+  if(!extra) return base;
+  const out=Array.isArray(base)?base.slice():{...base};
+  for(const k of Object.keys(extra)){
+    if(extra[k] && typeof extra[k]==='object' && !Array.isArray(extra[k])) out[k]=mergeObjects(base?.[k]||{}, extra[k]);
+    else out[k]=extra[k];
+  }
+  return out;
+}
+
+function getByPath(obj, path) {
     if (!obj || !path) return undefined;
     const parts = path.split(".");
     let cur = obj;
@@ -106,3 +116,16 @@
     if (y) y.textContent = new Date().getFullYear();
   }
 })();
+
+
+function setActiveNav(){
+  const page=document.documentElement.getAttribute("data-page") || "index";
+  document.querySelectorAll("[data-nav]").forEach(a=>{
+    const k=a.getAttribute("data-nav");
+    const isActive = (k===page) || (page==="article" && k==="blog");
+    if(isActive){
+      a.classList.add("font-semibold","text-slate-900");
+      a.classList.remove("text-slate-700");
+    }
+  });
+}
