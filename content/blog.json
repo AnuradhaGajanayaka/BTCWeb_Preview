@@ -65,5 +65,10 @@
       "category": "Security",
       "cover": "assets/blog/cover-3.svg"
     }
-  ]
+  ],
+  "seo": {
+    "title": "BISTEC Care Blog",
+    "description": "Insights for modern clinics \u2014 workflows, reception efficiency, clinical documentation and security best practices.",
+    "ogImage": "assets/blog/cover-1.svg"
+  }
 }

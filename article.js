@@ -3,6 +3,40 @@
     const res = await fetch(path, { cache: "no-store" });
     return await res.json();
   }
+  
+  function setMeta(nameOrProp, value, isProp=false){
+    if(!value) return;
+    const sel = isProp ? `meta[property="${nameOrProp}"]` : `meta[name="${nameOrProp}"]`;
+    let el=document.head.querySelector(sel);
+    if(!el){
+      el=document.createElement("meta");
+      if(isProp) el.setAttribute("property", nameOrProp);
+      else el.setAttribute("name", nameOrProp);
+      document.head.appendChild(el);
+    }
+    el.setAttribute("content", value);
+  }
+
+  function applyPostSeo(seo){
+    if(!seo) return;
+    if(seo.title) document.title = seo.title;
+    if(seo.description){
+      setMeta("description", seo.description, false);
+      setMeta("og:description", seo.description, true);
+      setMeta("twitter:description", seo.description, false);
+    }
+    const img = seo.ogImage;
+    if(img){
+      setMeta("og:image", img, true);
+      setMeta("twitter:image", img, false);
+    }
+    const ot = seo.ogTitle || seo.title;
+    if(ot){
+      setMeta("og:title", ot, true);
+      setMeta("twitter:title", ot, false);
+    }
+  }
+
   function esc(s){ return (s||"").replace(/[&<>"]/g, c=>({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c])); }
 
   function qs(name){
@@ -28,6 +62,7 @@
     const posts = blog.posts||[];
     const meta = posts.find(p=>p.slug===slug) || posts[0];
     const post = await loadJson(`content/posts/${meta.slug}.json`);
+    applyPostSeo(post.seo);
 
     document.title = `${post.title} — BISTEC Care Blog`;
 

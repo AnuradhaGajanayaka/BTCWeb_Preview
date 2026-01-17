@@ -39,5 +39,10 @@
       "type": "quote",
       "text": "Consistency creates quality \u2014 and quality reduces repeat work."
     }
-  ]
+  ],
+  "seo": {
+    "title": "SOAP notes in 90 seconds: a practical clinic workflow \u2014 BISTEC Care Blog",
+    "description": "SOAP notes are not just documentation \u2014 they are how a clinic stays consistent across doctors, shifts and future follow-ups.",
+    "ogImage": "assets/blog/cover-1.svg"
+  }
 }

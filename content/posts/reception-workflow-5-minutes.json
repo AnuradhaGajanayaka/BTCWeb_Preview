@@ -32,5 +32,10 @@
       "type": "p",
       "text": "These steps reduce rework and let your team focus on service, not paperwork."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Reception workflow: reduce waiting time in 5 steps \u2014 BISTEC Care Blog",
+    "description": "Reception is where patient experience starts. A small delay at the front desk multiplies into stress for doctors and patients.",
+    "ogImage": "assets/blog/cover-2.svg"
+  }
 }

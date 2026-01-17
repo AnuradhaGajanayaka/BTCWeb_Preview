@@ -24,5 +24,10 @@
     "Book a Demo"
   ],
   "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
-  "privacy": "Privacy Policy"
+  "privacy": "Privacy Policy",
+  "seo": {
+    "title": "BISTEC Care Blog Article",
+    "description": "Clinic workflow insights and practical guides.",
+    "ogImage": "assets/blog/cover-1.svg"
+  }
 }
