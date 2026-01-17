@@ -4,24 +4,6 @@
   "heroSub": "Appointments, patient records, consultation notes, treatments, pharmacy & insights \u2014 in one clean, modern system built for clinics.",
   "heroCtaPrimary": "Book a Demo",
   "heroCtaSecondary": "WhatsApp Sales",
-  "trustCards": [
-    {
-      "value": "50+",
-      "label": "Clinics"
-    },
-    {
-      "value": "50,000+",
-      "label": "Patients"
-    },
-    {
-      "value": "Bank-grade",
-      "label": "Security"
-    },
-    {
-      "value": "Local",
-      "label": "Support"
-    }
-  ],
   "pillars": [
     {
       "title": "Front Desk & Patient Experience",
@@ -86,5 +68,23 @@
     }
   ],
   "ctaTitle": "See BISTEC Care in 15 minutes",
-  "ctaSub": "A quick demo to understand how clinics reduce admin and run smoother \u2014 with bank-grade security."
+  "ctaSub": "A quick demo to understand how clinics reduce admin and run smoother \u2014 with bank-grade security.",
+  "trustBand": [
+    {
+      "value": "50+",
+      "label": "Clinics Trusted"
+    },
+    {
+      "value": "50,000+",
+      "label": "Patient Records"
+    },
+    {
+      "value": "Bank-grade",
+      "label": "Security"
+    },
+    {
+      "value": "24/7",
+      "label": "Local Support"
+    }
+  ]
 }
