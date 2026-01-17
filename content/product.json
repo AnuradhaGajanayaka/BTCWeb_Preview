@@ -121,5 +121,106 @@
       "title": "Confidence",
       "desc": "Clinics trust the system"
     }
-  ]
+  ],
+  "product": {
+    "heroTag": "Product Overview",
+    "heroTitle": "Everything your clinic needs \u2014 built as one modern system.",
+    "heroSub": "From appointments and clinical notes to pharmacy and analytics, BISTEC Care keeps your workflow clean, fast and reliable.",
+    "stats": [
+      {
+        "label": "Trusted by",
+        "value": "50+ clinics"
+      },
+      {
+        "label": "Used by",
+        "value": "50k+ patients"
+      }
+    ],
+    "visualTitle": "See the workflow at a glance",
+    "visualSub": "Reception \u2192 doctor \u2192 pharmacy \u2192 reporting, all connected.",
+    "visualCards": [
+      {
+        "tag": "RECEPTION",
+        "title": "Fast registration"
+      },
+      {
+        "tag": "DOCTORS",
+        "title": "SOAP notes & history"
+      },
+      {
+        "tag": "PHARMACY",
+        "title": "Inventory control"
+      },
+      {
+        "tag": "MANAGEMENT",
+        "title": "Dashboards & reporting"
+      }
+    ],
+    "visualNote": "Replace these placeholders with real screenshots as you capture UI.",
+    "modulesTitle": "Core modules",
+    "modulesSub": "Everything you need to run end\u2011to\u2011end operations without stitching tools together.",
+    "modules": [
+      {
+        "tag": "FRONT DESK",
+        "title": "Patient registration & queue flow",
+        "desc": "Keep reception fast with structured patient capture and a smooth token flow.",
+        "bullets": [
+          "Quick search & patient history",
+          "Waiting list visibility",
+          "SMS/print ready workflows"
+        ]
+      },
+      {
+        "tag": "CLINICAL",
+        "title": "Consultation notes & clinical history",
+        "desc": "SOAP notes, uploads and investigations\u2014built for daily clinical use.",
+        "bullets": [
+          "SOAP notes + attachments",
+          "Investigation requests",
+          "AI-assisted summaries (optional)"
+        ]
+      },
+      {
+        "tag": "SCHEDULING",
+        "title": "Appointments & portal bookings",
+        "desc": "Modern booking rules and patient portal for reduced inbound calls.",
+        "bullets": [
+          "Doctor-wise scheduling",
+          "Family bookings + rules",
+          "Online booking portal"
+        ]
+      },
+      {
+        "tag": "CONTROL",
+        "title": "Pharmacy, inventory & reporting",
+        "desc": "Tight stock control and management visibility with dashboards and reports.",
+        "bullets": [
+          "GRN & batch traceability",
+          "Role-based permissions",
+          "Clinic dashboards & analytics"
+        ]
+      }
+    ],
+    "flowTitle": "How the system flows",
+    "flowSub": "A clean operating flow that matches how clinics really work.",
+    "flow": [
+      {
+        "tag": "STEP 01",
+        "title": "Reception",
+        "desc": "Register and issue token in seconds."
+      },
+      {
+        "tag": "STEP 02",
+        "title": "Doctor",
+        "desc": "Consultation notes and treatments captured."
+      },
+      {
+        "tag": "STEP 03",
+        "title": "Pharmacy & Ops",
+        "desc": "Dispense and track inventory + reporting."
+      }
+    ],
+    "ctaTitle": "Want to see the full product in action?",
+    "ctaSub": "Book a quick demo and we\u2019ll walk you through the modules based on your clinic type."
+  }
 }
