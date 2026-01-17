@@ -199,6 +199,46 @@
           "Role-based permissions",
           "Clinic dashboards & analytics"
         ]
+      },
+      {
+        "tag": "INVESTIGATIONS",
+        "title": "Investigations & lab workflow",
+        "desc": "Request, track and record lab results seamlessly inside the patient timeline.",
+        "bullets": [
+          "Investigation requests",
+          "Result attachments",
+          "Structured history"
+        ]
+      },
+      {
+        "tag": "TREATMENTS",
+        "title": "Treatment plans & follow-ups",
+        "desc": "Plan multi-visit treatments and record progress across visits with clarity.",
+        "bullets": [
+          "Treatment plan builder",
+          "Visit-wise execution notes",
+          "Patient progress view"
+        ]
+      },
+      {
+        "tag": "SECURITY",
+        "title": "Bank-grade security & access control",
+        "desc": "Role-based permissions, audit trails and protected data flows across modules.",
+        "bullets": [
+          "Roles & permissions",
+          "Audit logs",
+          "Secure hosting practices"
+        ]
+      },
+      {
+        "tag": "INSIGHTS",
+        "title": "Dashboards & performance analytics",
+        "desc": "See trends, workload and operations health through clean visual dashboards.",
+        "bullets": [
+          "Clinic KPIs",
+          "Doctor workload",
+          "Operational reports"
+        ]
       }
     ],
     "flowTitle": "How the system flows",
