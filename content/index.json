@@ -94,17 +94,20 @@
     {
       "quote": "\u201cReception is faster and the patient portal reduced phone calls.\u201d",
       "name": "Clinic Owner",
-      "meta": "Dental Clinic"
+      "meta": "Dental Clinic",
+      "image": "assets/clients/client-1.svg"
     },
     {
       "quote": "\u201cSOAP notes and patient history improved consultation flow.\u201d",
       "name": "Consultant",
-      "meta": "Multi-doctor Clinic"
+      "meta": "Multi-doctor Clinic",
+      "image": "assets/clients/client-2.svg"
     },
     {
       "quote": "\u201cInventory & reporting gives control. Simple and modern.\u201d",
       "name": "Clinic Manager",
-      "meta": "Skin Clinic"
+      "meta": "Skin Clinic",
+      "image": "assets/clients/client-3.svg"
     }
   ],
   "finalCtaTitle": "See BISTEC Care in 15 minutes",
