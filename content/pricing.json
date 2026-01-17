@@ -1,0 +1,80 @@
+{
+  "topTitle": "Pricing",
+  "topDesc": "Choose a tier that matches your clinic size. Upgrade anytime.",
+  "tiers": [
+    {
+      "badge": "STARTER",
+      "title": "Clinic Starter",
+      "desc": "For single doctor / smaller practices.",
+      "includes": [
+        "Appointments + token/queue",
+        "Patient registration",
+        "SOAP notes",
+        "Prescriptions",
+        "Basic reporting"
+      ],
+      "cta": "Get Quote"
+    },
+    {
+      "badge": "MOST POPULAR",
+      "title": "Clinic Growth",
+      "desc": "For busy clinics that need better operational control.",
+      "includes": [
+        "Branded patient portal",
+        "Treatment planning",
+        "Inventory (pharmacy)",
+        "Dashboards",
+        "Role-based access"
+      ],
+      "cta": "Book Demo"
+    },
+    {
+      "badge": "ENTERPRISE",
+      "title": "Clinic Enterprise",
+      "desc": "For multi-doctor and multi-branch groups.",
+      "includes": [
+        "Multi-branch visibility",
+        "Advanced reporting",
+        "Priority support",
+        "Custom integrations"
+      ],
+      "cta": "Talk to Sales"
+    }
+  ],
+  "addons": [
+    {
+      "title": "SMS Packages",
+      "desc": "Automated reminders and notifications."
+    },
+    {
+      "title": "WhatsApp Bot",
+      "desc": "Smart booking and communication."
+    },
+    {
+      "title": "Branded Portal",
+      "desc": "Custom clinic URL + branding."
+    },
+    {
+      "title": "Integrations",
+      "desc": "Custom workflows for your clinic."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does onboarding take?",
+      "a": "Typically 1\u20132 weeks depending on clinic size and data migration."
+    },
+    {
+      "q": "Do you provide training?",
+      "a": "Yes \u2014 onboarding includes training for reception and doctors."
+    },
+    {
+      "q": "Can I upgrade later?",
+      "a": "Yes \u2014 upgrade anytime as your clinic grows."
+    },
+    {
+      "q": "Is patient data secure?",
+      "a": "Yes \u2014 bank-grade security with role-based access controls."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+FULL JSON EDIT MODE
+
+You can now edit ALL content using JSON files:
+
+Global:
+- content/site.json
+
+Per page:
+- content/index.json
+- content/product.json
+- content/solutions.json
+- content/dental.json
+- content/pricing.json
+- content/resources.json
+- content/company.json
+- content/contact.json
+
+After editing any JSON, commit changes and GitHub Pages updates automatically.
+
+Notes:
+- Some buttons/links (URLs) remain in HTML. If you need those editable too, tell me and I will add link fields to JSON.

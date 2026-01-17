@@ -1,0 +1,20 @@
+{
+  "brandName": "BISTEC Care",
+  "primaryCTA": "Book a Demo",
+  "secondaryCTA": "WhatsApp Sales",
+  "trust": [
+    "Trusted by 50+ clinics",
+    "Trusted by 50,000+ patients",
+    "Bank-grade security",
+    "Local support"
+  ],
+  "nav": {
+    "product": "Product",
+    "solutions": "Solutions",
+    "dental": "Dental Suite",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "company": "Company",
+    "whatsapp": "WhatsApp"
+  }
+}

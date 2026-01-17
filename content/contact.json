@@ -1,0 +1,23 @@
+{
+  "topTitle": "Contact",
+  "topDesc": "Book a demo. Let\u2019s modernize your clinic.",
+  "formTitle": "Send a message",
+  "formDesc": "Fill this form, and we\u2019ll get back to you.",
+  "fields": {
+    "name": "Your Name",
+    "clinic": "Clinic Name",
+    "phone": "Phone / WhatsApp",
+    "email": "Email",
+    "message": "Message"
+  },
+  "submit": "Submit",
+  "whatsapp": "WhatsApp Sales",
+  "info": {
+    "badge": "CONTACT",
+    "email": "info@bisteccare.com",
+    "location": "Colombo, Sri Lanka",
+    "footer": "Bank-grade security \u2022 Trusted by 50+ clinics \u2022 50,000+ patients"
+  },
+  "bookingTitle": "Prefer booking a time?",
+  "bookingDesc": "Embed Calendly / booking widget here."
+}

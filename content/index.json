@@ -1,0 +1,90 @@
+{
+  "heroTag": "Trusted by modern clinics",
+  "heroTitle": "Run your clinic with <span class='text-brandBlue'>less admin</span> and <span class='text-brandGreen'>more care</span>.",
+  "heroSub": "Appointments, patient records, consultation notes, treatments, pharmacy & insights \u2014 in one clean, modern system built for clinics.",
+  "heroCtaPrimary": "Book a Demo",
+  "heroCtaSecondary": "WhatsApp Sales",
+  "trustCards": [
+    {
+      "value": "50+",
+      "label": "Clinics"
+    },
+    {
+      "value": "50,000+",
+      "label": "Patients"
+    },
+    {
+      "value": "Bank-grade",
+      "label": "Security"
+    },
+    {
+      "value": "Local",
+      "label": "Support"
+    }
+  ],
+  "pillars": [
+    {
+      "title": "Front Desk & Patient Experience",
+      "desc": "Smart registration, quick search, token flow, and a branded patient portal."
+    },
+    {
+      "title": "Clinical Excellence",
+      "desc": "SOAP notes, uploads, investigations, and AI patient summary to reduce effort."
+    },
+    {
+      "title": "Operations & Control",
+      "desc": "Dashboards, role-based access, pharmacy inventory & reporting for decision-making."
+    }
+  ],
+  "features": [
+    {
+      "tag": "PATIENTS",
+      "title": "Smart registration + QR patient card",
+      "desc": "Faster reception workflow with clean patient profiles."
+    },
+    {
+      "tag": "SCHEDULING",
+      "title": "Appointments + token/queue tracking",
+      "desc": "Track patient flow and reduce waiting confusion."
+    },
+    {
+      "tag": "PORTAL",
+      "title": "Branded patient portal",
+      "desc": "Clinic URL, booking rules, and family booking support."
+    },
+    {
+      "tag": "CLINICAL",
+      "title": "SOAP notes + uploads",
+      "desc": "Store images, docs, and consultation history."
+    },
+    {
+      "tag": "TREATMENTS",
+      "title": "Treatment planning & execution",
+      "desc": "Plan future visits and record treatments during care."
+    },
+    {
+      "tag": "PHARMACY",
+      "title": "Inventory + GRN traceability",
+      "desc": "Track stock and movement per location."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "\u201cReception is faster and the patient portal reduced phone calls significantly.\u201d",
+      "name": "Clinic Owner",
+      "meta": "Dental Clinic"
+    },
+    {
+      "quote": "\u201cSOAP notes and patient history improved our consultation flow.\u201d",
+      "name": "Consultant",
+      "meta": "Multi-doctor Clinic"
+    },
+    {
+      "quote": "\u201cInventory & reporting gives control. It\u2019s simple and modern.\u201d",
+      "name": "Clinic Manager",
+      "meta": "Skin Clinic"
+    }
+  ],
+  "ctaTitle": "See BISTEC Care in 15 minutes",
+  "ctaSub": "A quick demo to understand how clinics reduce admin and run smoother \u2014 with bank-grade security."
+}

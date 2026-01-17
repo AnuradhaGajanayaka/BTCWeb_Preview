@@ -1,0 +1,38 @@
+{
+  "topTitle": "Resources",
+  "topDesc": "Guides, articles, and case studies for clinic operations and patient experience.",
+  "featured": {
+    "badge": "FEATURED",
+    "title": "How to reduce no-shows in your clinic",
+    "desc": "Patient reminders, booking rules, and follow-ups that actually work.",
+    "cta": "Read article \u2192"
+  },
+  "download": {
+    "badge": "DOWNLOAD",
+    "title": "Clinic Digitization Checklist",
+    "desc": "A simple checklist to evaluate your clinic\u2019s readiness.",
+    "cta": "Download PDF"
+  },
+  "cards": [
+    {
+      "badge": "GUIDE",
+      "title": "Reception workflow modernization",
+      "desc": "Reduce queues, confusion, and manual errors.",
+      "cta": "Read \u2192"
+    },
+    {
+      "badge": "CASE STUDY",
+      "title": "How a clinic improved patient flow",
+      "desc": "Token visibility and portal bookings reduced workload.",
+      "cta": "Read \u2192"
+    },
+    {
+      "badge": "ARTICLE",
+      "title": "Why SOAP notes improve care quality",
+      "desc": "Fast documentation helps better clinical decisions.",
+      "cta": "Read \u2192"
+    }
+  ],
+  "ctaTitle": "Want to modernize your clinic?",
+  "ctaSub": "See how BISTEC Care fits your workflow."
+}

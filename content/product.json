@@ -1,0 +1,125 @@
+{
+  "topTitle": "Product",
+  "topDesc": "Everything your clinic needs \u2014 in one platform. Designed for reception, doctors, and management.",
+  "heroCtaPrimary": "Book a Demo",
+  "heroCtaSecondary": "View Pricing",
+  "modules": [
+    {
+      "area": "FRONT DESK",
+      "title": "Patient Registration & Profiles",
+      "desc": "Smart registration, clean patient profiles, and fast search.",
+      "bullets": [
+        "QR patient card workflow",
+        "Quick patient search",
+        "Unified patient profile"
+      ]
+    },
+    {
+      "area": "SCHEDULING",
+      "title": "Appointments + Token Flow",
+      "desc": "Status flow and token-style patient movement.",
+      "bullets": [
+        "Appointment status tracking",
+        "Queue / waiting visibility",
+        "SMS reminders (optional)"
+      ]
+    },
+    {
+      "area": "PORTAL",
+      "title": "Branded Patient Portal",
+      "desc": "Clinic URL, booking rules, and controlled availability.",
+      "bullets": [
+        "Rules for booking eligibility",
+        "Family booking supported",
+        "Optional WhatsApp bot"
+      ]
+    },
+    {
+      "area": "CLINICAL",
+      "title": "Consultation & SOAP Notes",
+      "desc": "Fast documentation with uploads and history.",
+      "bullets": [
+        "SOAP notes",
+        "Upload images and docs",
+        "AI patient summary (optional)"
+      ]
+    },
+    {
+      "area": "TREATMENTS",
+      "title": "Treatments & Planning",
+      "desc": "Plan future visits and record treatments while consulting.",
+      "bullets": [
+        "Treatment plan and execution",
+        "Procedure recording",
+        "Auto workflow support"
+      ]
+    },
+    {
+      "area": "PRESCRIPTIONS",
+      "title": "Prescriptions",
+      "desc": "Templates, favorites, and clean output.",
+      "bullets": [
+        "Prescription templates",
+        "Favorites",
+        "Share via WhatsApp"
+      ]
+    },
+    {
+      "area": "PHARMACY",
+      "title": "Inventory & GRN Traceability",
+      "desc": "Control stock, movement, and purchasing visibility.",
+      "bullets": [
+        "Location-based stock",
+        "GRN traceability",
+        "Excel migration support"
+      ]
+    },
+    {
+      "area": "INSIGHTS",
+      "title": "Dashboards & Reporting",
+      "desc": "A clear view for owners and managers.",
+      "bullets": [
+        "Role-based dashboards",
+        "Exportable reports",
+        "Decision support"
+      ]
+    },
+    {
+      "area": "MOBILE",
+      "title": "Purpose-built Mobile Web",
+      "desc": "Designed separately for mobile: consultations, dashboards, and core operations.",
+      "bullets": [
+        "Mobile-first screens",
+        "Optimized doctor workflow",
+        "Works anywhere"
+      ]
+    }
+  ],
+  "securityTag": "Security",
+  "securityTitle": "Bank-grade security by design",
+  "securityDesc": "Security isn\u2019t a feature \u2014 it\u2019s built into every workflow.",
+  "securityBullets": [
+    "Role-based permissions",
+    "Controlled access by staff type",
+    "Secure handling of patient data",
+    "Operational accountability"
+  ],
+  "securityCards": [
+    {
+      "title": "Access Control",
+      "desc": "Role-based permissions"
+    },
+    {
+      "title": "Privacy",
+      "desc": "Secure patient data"
+    },
+    {
+      "title": "Reliability",
+      "desc": "Built for daily operations"
+    },
+    {
+      "title": "Confidence",
+      "desc": "Clinics trust the system"
+    }
+  ]
+}

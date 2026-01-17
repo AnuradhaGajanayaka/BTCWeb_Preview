@@ -1,0 +1,59 @@
+{
+  "topTitle": "Company",
+  "topDesc": "Learn about our mission, values, and security-first approach.",
+  "missionTitle": "Our mission",
+  "missionDesc": "Make clinic operations simple, predictable, and modern \u2014 so staff spend less time on manual work and more time delivering patient care.",
+  "values": [
+    {
+      "title": "Scandinavian simplicity",
+      "desc": "Minimal, clear workflows that feel calm and modern."
+    },
+    {
+      "title": "Built for clinics",
+      "desc": "Real clinic workflow logic, not generic software."
+    },
+    {
+      "title": "Security-first",
+      "desc": "Bank-grade security mindset and role-based access."
+    },
+    {
+      "title": "Local support",
+      "desc": "Onboarding + training designed for Sri Lankan clinics."
+    }
+  ],
+  "glance": [
+    {
+      "value": "50+",
+      "label": "Clinics"
+    },
+    {
+      "value": "50,000+",
+      "label": "Patients"
+    },
+    {
+      "value": "Bank-grade",
+      "label": "Security"
+    }
+  ],
+  "security": {
+    "tag": "Security",
+    "title": "Bank-grade security approach",
+    "desc": "Clinics deal with sensitive patient data. That\u2019s why our platform is designed with secure access controls and operational accountability.",
+    "cards": [
+      {
+        "title": "Role-based access",
+        "desc": "Reception, doctors, and managers see only what they need."
+      },
+      {
+        "title": "Controlled workflows",
+        "desc": "Process consistency reduces risk and errors."
+      },
+      {
+        "title": "Confidence",
+        "desc": "Trusted by clinics operating daily with real patients."
+      }
+    ]
+  },
+  "ctaTitle": "Let\u2019s improve your clinic operations",
+  "ctaSub": "Book a demo and see the workflow in action."
+}
