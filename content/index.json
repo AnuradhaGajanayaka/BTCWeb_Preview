@@ -173,9 +173,9 @@
       "image": "assets/placeholders/features/feature-6.svg"
     }
   ],
-  "heroTitlePrefix": "Run your clinic with",
-  "heroTitleBlue": "less admin",
-  "heroTitleMid": "and",
-  "heroTitleGreen": "more care",
+  "heroTitlePrefix": "Run your clinic with ",
+  "heroTitleBlue": " less admin ",
+  "heroTitleMid": " and ",
+  "heroTitleGreen": " more care",
   "heroTitleSuffix": "."
 }
