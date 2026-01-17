@@ -133,5 +133,43 @@
   "privacy": "Privacy Policy",
   "operatingTitle": "A complete operating system for clinics",
   "operatingSub": "Reception, doctors and management \u2014 aligned in one workflow.",
-  "operatingImage": "assets/placeholders/os-illustration.svg"
+  "operatingImage": "assets/placeholders/os-illustration.svg",
+  "featureCards": [
+    {
+      "category": "PATIENTS",
+      "title": "Registration + QR card",
+      "desc": "Faster reception workflow.",
+      "image": "assets/placeholders/features/feature-1.svg"
+    },
+    {
+      "category": "SCHEDULING",
+      "title": "Appointments + token flow",
+      "desc": "Track patient movement.",
+      "image": "assets/placeholders/features/feature-2.svg"
+    },
+    {
+      "category": "PORTAL",
+      "title": "Branded portal",
+      "desc": "Booking rules + family booking.",
+      "image": "assets/placeholders/features/feature-3.svg"
+    },
+    {
+      "category": "CLINICAL",
+      "title": "SOAP notes + uploads",
+      "desc": "Clean clinical history.",
+      "image": "assets/placeholders/features/feature-4.svg"
+    },
+    {
+      "category": "TREATMENTS",
+      "title": "Treatment planning",
+      "desc": "Plan future visits.",
+      "image": "assets/placeholders/features/feature-5.svg"
+    },
+    {
+      "category": "PHARMACY",
+      "title": "Inventory + GRN traceability",
+      "desc": "Control stock and movement.",
+      "image": "assets/placeholders/features/feature-6.svg"
+    }
+  ]
 }
