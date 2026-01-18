@@ -54,7 +54,7 @@
           <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.0">Dental</span>
           <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.1">Skin / Aesthetic</span>
           <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.2">Channeling</span>
-          <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.3">Multi-doctor</span>
+          <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.3">AI Powered</span>
           <span class="rounded-full border border-line bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700" data-content="headerChips.4">Multi-branch</span>
         </div>
 
@@ -83,7 +83,7 @@
 
 <section class='max-w-6xl mx-auto px-4 py-16'>
   <div class='grid sm:grid-cols-2 lg:grid-cols-3 gap-6' data-repeat="tiles">
-    <a data-template class='rounded-3xl border border-line bg-white p-7 shadow hover:-translate-y-0.5 transition' href='#'>
+    <a data-template data-item-href="k" class='rounded-3xl border border-line bg-white p-7 shadow hover:-translate-y-0.5 transition' href='#'>
       <div class='text-xs font-semibold text-brandGreen' data-item-content="badge"></div>
       <img data-item-content="image" src='' alt='' class='mt-3 h-44 w-full object-cover rounded-md'/>
       <h3 class='mt-2 text-xl font-semibold' data-item-content="title"></h3>
@@ -92,29 +92,6 @@
     </a>
   </div>
 </section>
-
-  <!-- Simple Onboarding (Scandinavian CTA) -->
-  <section class='max-w-6xl mx-auto px-4 pb-16'>
-    <div class='relative overflow-hidden rounded-3xl border border-line bg-white shadow-sm'>
-      <div class='absolute inset-0'>
-        <div class='absolute inset-0 bg-fog'></div>
-        <div class='absolute -top-16 -right-20 h-64 w-64 rounded-full bg-brandBlue/10 blur-3xl'></div>
-        <div class='absolute -bottom-20 -left-16 h-72 w-72 rounded-full bg-brandGreen/10 blur-3xl'></div>
-      </div>
-
-      <div class='relative p-8 md:p-12 grid md:grid-cols-12 gap-6 items-center'>
-        <div class='md:col-span-8'>
-          <h2 class='text-2xl md:text-3xl font-semibold tracking-tight text-slate-900' data-content="onboardingTitle"></h2>
-          <p class='mt-3 text-slate-600 leading-relaxed max-w-2xl' data-content="onboardingSubtitle"></p>
-        </div>
-        <div class='md:col-span-4 flex md:justify-end'>
-          <a href='contact.html' class='w-full md:w-auto rounded-2xl bg-brandBlue px-6 py-3 text-white text-sm font-semibold shadow hover:opacity-95'>
-            <span data-content="sections.onboarding.cta"></span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
  <!-- Specialty Details -->
 <section class='bg-fog'>
   <div class='max-w-6xl mx-auto px-4 py-16 space-y-10'>
@@ -153,15 +130,15 @@
 	    </div>
 	    <div id='multi' class='rounded-3xl border border-line bg-white shadow p-10 grid md:grid-cols-2 gap-8 items-center'>
 	      <div>
-	        <h2 class='text-3xl font-semibold'>Multi-doctor Clinics</h2>
-	        <p class='mt-3 text-slate-600'>Role-based workflows for your team.</p>
+	        <h2 class='text-3xl font-semibold' data-content="sections.multi.title">AI Powered Smart Clinic</h2>
+	        <p class='mt-3 text-slate-600' data-content="sections.multi.desc"></p>
 	        <div class='mt-7'>
 	          <a href='contact.html' class='rounded-xl bg-brandBlue px-6 py-3 text-white text-sm font-semibold shadow'><span data-content="sections.multi.cta"></span></a>
 	        </div>
 	      </div>
 	      <div class='rounded-3xl bg-fog border border-line p-6'>
 	        <div class='text-sm font-semibold' data-content="sections.multi.previewTitle">Team workflow preview</div>
-	        <img data-src="sections.multi.image" class='mt-3 h-44 w-full rounded-2xl object-cover' alt='Multi-doctor preview'/>
+	        <img data-src="sections.multi.image" class='mt-3 h-44 w-full rounded-2xl object-cover' alt='AI Powered Smart Clinic preview'/>
 	      </div>
 	    </div>
 	    <div id='group' class='rounded-3xl border border-line bg-white shadow p-10 grid md:grid-cols-2 gap-8 items-center'>
@@ -179,6 +156,29 @@
 	    </div>
   </div>
 </section>
+
+  <!-- Simple Onboarding (Scandinavian CTA) -->
+  <section class='max-w-6xl mx-auto px-4 pb-16'>
+    <div class='relative overflow-hidden rounded-3xl border border-line bg-white shadow-sm'>
+      <div class='absolute inset-0'>
+        <div class='absolute inset-0 bg-fog'></div>
+        <div class='absolute -top-16 -right-20 h-64 w-64 rounded-full bg-brandBlue/10 blur-3xl'></div>
+        <div class='absolute -bottom-20 -left-16 h-72 w-72 rounded-full bg-brandGreen/10 blur-3xl'></div>
+      </div>
+
+      <div class='relative p-8 md:p-12 grid md:grid-cols-12 gap-6 items-center'>
+        <div class='md:col-span-8'>
+          <h2 class='text-2xl md:text-3xl font-semibold tracking-tight text-slate-900' data-content="onboardingTitle"></h2>
+          <p class='mt-3 text-slate-600 leading-relaxed max-w-2xl' data-content="onboardingSubtitle"></p>
+        </div>
+        <div class='md:col-span-4 flex md:justify-end'>
+          <a href='contact.html' class='w-full md:w-auto rounded-2xl bg-brandBlue px-6 py-3 text-white text-sm font-semibold shadow hover:opacity-95'>
+            <span data-content="sections.onboarding.cta"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 <footer class='border-t border-line bg-white'>
   <div class='max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-5 gap-8'>
