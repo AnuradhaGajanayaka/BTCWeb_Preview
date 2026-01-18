@@ -20,7 +20,7 @@
     <path d="M186 172h0"/>
   </g>
 
-  <text x="230" y="170" font-family="ui-sans-serif, system-ui" font-size="28" fill="#0F172A" font-weight="700">Channeling & Appointments</text>
+  <text x="230" y="170" font-family="ui-sans-serif, system-ui" font-size="28" fill="#0F172A" font-weight="700">Channeling &amp; Appointments</text>
   <text x="230" y="206" font-family="ui-sans-serif, system-ui" font-size="18" fill="#475569">Web bookings, slots, and token flow.</text>
 
   <!-- slots row -->
