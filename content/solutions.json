@@ -9,19 +9,44 @@
     "Multi-branch"
   ],
   "trustItems": [
-    { "label": "Trusted by", "value": "50+ clinics" },
-    { "label": "Used by", "value": "50,000+ patients" },
-    { "label": "Security", "value": "Bank-grade protection" }
+    {
+      "label": "Trusted by",
+      "value": "50+ clinics"
+    },
+    {
+      "label": "Used by",
+      "value": "50,000+ patients"
+    },
+    {
+      "label": "Security",
+      "value": "Bank-grade protection"
+    }
   ],
   "onboardingTitle": "Up and Running in Hours, Not Days",
   "onboardingSubtitle": "Simple onboarding process with dedicated support to get your clinic digital in no time.",
   "onboardingTag": "🚀 Get Started",
   "onboardingSecondaryCta": "View Pricing",
   "onboardingSteps": [
-    { "n": "1", "title": "Sign Up", "desc": "Create your account and tell us about your clinic in a few minutes." },
-    { "n": "2", "title": "Setup", "desc": "We configure your schedule, services, and staff roles for you." },
-    { "n": "3", "title": "Train", "desc": "A short guided session for your team — typically under 2 hours." },
-    { "n": "4", "title": "Go Live", "desc": "Start managing appointments and workflows with confidence." }
+    {
+      "n": "1",
+      "title": "Sign Up",
+      "desc": "Create your account and tell us about your clinic in a few minutes."
+    },
+    {
+      "n": "2",
+      "title": "Setup",
+      "desc": "We configure your schedule, services, and staff roles for you."
+    },
+    {
+      "n": "3",
+      "title": "Train",
+      "desc": "A short guided session for your team — typically under 2 hours."
+    },
+    {
+      "n": "4",
+      "title": "Go Live",
+      "desc": "Start managing appointments and workflows with confidence."
+    }
   ],
   "tiles": [
     {
@@ -30,7 +55,7 @@
       "title": "Dental Clinics",
       "image": "assets/placeholders/solutions/dental-preview.svg",
       "desc": "Chair-side workflow, charting, planning, procedures.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "skin",
@@ -38,7 +63,7 @@
       "title": "Skin / Aesthetic Clinics",
       "image": "assets/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, packages, follow-ups, images and notes.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "channeling",
@@ -46,7 +71,7 @@
       "title": "Channeling Centers",
       "image": "assets/placeholders/solutions/channeling-preview.svg",
       "desc": "Fast reception, scheduling, queue, and portal bookings.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "multi",
@@ -54,7 +79,7 @@
       "title": "AI Powered Smart Clinic",
       "image": "assets/placeholders/solutions/multidoctor-preview.svg",
       "desc": "AI tools that reduce admin work and improve clinical clarity.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "group",
@@ -62,15 +87,15 @@
       "title": "Multi-branch Groups",
       "image": "assets/placeholders/solutions/multibranch-preview.svg",
       "desc": "Visibility across branches with controls and reporting.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "help",
       "badge": "NEED HELP?",
       "title": "Not sure which fits you?",
       "image": "assets/placeholders/solutions/help-preview.svg",
-      "desc": "Book a quick call. We\u2019ll guide you.",
-      "cta": "Book a demo \u2192"
+      "desc": "Book a quick call. We’ll guide you.",
+      "cta": "Book a demo →"
     }
   ],
   "sections": {
@@ -105,7 +130,7 @@
       "title": "Channeling Centers",
       "previewTitle": "Channeling preview",
       "image": "assets/placeholders/solutions/channeling-preview.svg",
-      "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal \u2014 so your team handles less phone calls.",
+      "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal — so your team handles less phone calls.",
       "cards": [
         {
           "title": "Reception flow",
@@ -156,5 +181,6 @@
     "onboarding": {
       "cta": "Talk to our team"
     }
-  }
+  },
+  "onboardingIllustration": "assets/images/onboarding-steps.png"
 }
