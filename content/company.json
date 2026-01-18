@@ -2,7 +2,7 @@
   "topTitle": "Company",
   "topDesc": "Learn about our mission, values, and security-first approach.",
   "missionTitle": "Our mission",
-  "missionDesc": "Make clinic operations simple, predictable, and modern \u2014 so staff spend less time on manual work and more time delivering patient care.",
+  "missionDesc": "Make clinic operations simple, predictable, and modern — so staff spend less time on manual work and more time delivering patient care.",
   "values": [
     {
       "title": "Scandinavian simplicity",
@@ -40,7 +40,7 @@
   ],
   "teamTitle": "Our team",
   "teamBody": "We’re a passionate team of engineers, designers, and support specialists, building BISTEC Care together with doctors and staff to make admin and clinical operations simpler and more reliable to provide better patient care.",
-  "teamImage": "assets/hero-bg.svg",
+  "teamImage": "assets/images/team/team.png",
   "glance": [
     {
       "value": "50+",
@@ -58,7 +58,7 @@
   "security": {
     "tag": "Security",
     "title": "Bank-grade security approach",
-    "desc": "Clinics deal with sensitive patient data. That\u2019s why our platform is designed with secure access controls and operational accountability.",
+    "desc": "Clinics deal with sensitive patient data. That’s why our platform is designed with secure access controls and operational accountability.",
     "cards": [
       {
         "title": "Role-based access",
@@ -74,7 +74,7 @@
       }
     ]
   },
-  "ctaTitle": "Let\u2019s improve your clinic operations",
+  "ctaTitle": "Let’s improve your clinic operations",
   "ctaSub": "Book a demo and see the workflow in action.",
   "topSub": "Learn about BISTEC Care and our mission to modernize clinic operations."
 }
