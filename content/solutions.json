@@ -1,6 +1,18 @@
 {
   "topTitle": "Solutions",
   "topDesc": "Choose your clinic type and see how BISTEC Care fits your workflow.",
+  "headerChips": [
+    "Dental",
+    "Skin / Aesthetic",
+    "Channeling",
+    "Multi-doctor",
+    "Multi-branch"
+  ],
+  "trustItems": [
+    { "label": "Trusted by", "value": "50+ clinics" },
+    { "label": "Used by", "value": "50,000+ patients" },
+    { "label": "Security", "value": "Bank-grade protection" }
+  ],
   "tiles": [
     {
       "k": "dental",
