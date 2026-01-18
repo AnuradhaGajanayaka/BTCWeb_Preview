@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" rx="48" fill="#F7FAFC"/>
+  <path d="M0 430C210 350 360 520 560 440s220-60 340 20V600H0V430Z" fill="#E6EEF5"/>
+  <g transform="translate(140 150)">
+    <rect x="0" y="0" width="620" height="300" rx="40" fill="#FFFFFF" stroke="#E6EEF5" stroke-width="2"/>
+    <rect x="40" y="70" width="180" height="90" rx="24" fill="#1D7DB6" opacity="0.12"/>
+    <rect x="240" y="70" width="340" height="18" rx="9" fill="#CBD5E1"/>
+    <rect x="240" y="100" width="260" height="18" rx="9" fill="#E2E8F0"/>
+    <rect x="40" y="190" width="540" height="18" rx="9" fill="#E2E8F0"/>
+    <rect x="40" y="220" width="460" height="18" rx="9" fill="#E2E8F0"/>
+    <circle cx="90" cy="115" r="22" fill="#32B29A" opacity="0.22"/>
+    <path d="M82 115l6 6 12-14" fill="none" stroke="#32B29A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="180" y="125" font-family="Inter, system-ui, -apple-system" font-size="22" font-weight="700" fill="#0F172A">Channeling Center</text>
+</svg>

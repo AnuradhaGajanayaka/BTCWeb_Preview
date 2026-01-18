@@ -6,55 +6,48 @@
       "k": "dental",
       "badge": "SPECIALTY",
       "title": "Dental Clinics",
-      "image": "assets/placeholders/solutions/dental-preview.svg",
       "desc": "Chair-side workflow, charting, planning, procedures.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "skin",
       "badge": "SPECIALTY",
       "title": "Skin / Aesthetic Clinics",
-      "image": "assets/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, packages, follow-ups, images and notes.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "channeling",
       "badge": "WORKFLOW",
       "title": "Channeling Centers",
-      "image": "assets/placeholders/solutions/channeling-preview.svg",
       "desc": "Fast reception, scheduling, queue, and portal bookings.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "multi",
       "badge": "GROWING",
       "title": "Multi-doctor Clinics",
-      "image": "assets/placeholders/solutions/multidoctor-preview.svg",
       "desc": "Role-based access, dashboards, and team workflows.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "group",
       "badge": "SCALING",
       "title": "Multi-branch Groups",
-      "image": "assets/placeholders/solutions/multibranch-preview.svg",
       "desc": "Visibility across branches with controls and reporting.",
-      "cta": "View solution \u2192"
+      "cta": "View solution →"
     },
     {
       "k": "help",
       "badge": "NEED HELP?",
       "title": "Not sure which fits you?",
-      "image": "assets/placeholders/solutions/help-preview.svg",
-      "desc": "Book a quick call. We\u2019ll guide you.",
-      "cta": "Book a demo \u2192"
+      "desc": "Book a quick call. We’ll guide you.",
+      "cta": "Book a demo →"
     }
   ],
   "sections": {
     "dental": {
       "title": "Dental Clinics",
-      "image": "assets/placeholders/solutions/dental-preview.svg",
       "desc": "Specialist chair-side workflow and dental planning.",
       "bullets": [
         "Dental charting and history",
@@ -63,11 +56,14 @@
         "Treatment planning and execution"
       ],
       "cta1": "Explore Dental Suite",
-      "cta2": "Book Demo"
+      "cta2": "Book Demo",
+      "previewImage": "assets/placeholders/features/feature-4.svg",
+      "tileImage": "assets/placeholders/features/feature-4.svg",
+      "previewTitle": "Dental preview",
+      "image": "assets/placeholders/features/feature-4.svg"
     },
     "skin": {
       "title": "Skin / Aesthetic Clinics",
-      "image": "assets/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, images, progress tracking, and planned follow-ups.",
       "bullets": [
         "Treatment planning",
@@ -75,12 +71,15 @@
         "Procedure recording",
         "Patient portal scheduling"
       ],
-      "cta": "Book Demo"
+      "cta": "Book Demo",
+      "previewImage": "assets/placeholders/features/feature-5.svg",
+      "tileImage": "assets/placeholders/features/feature-5.svg",
+      "previewTitle": "Skin preview",
+      "image": "assets/placeholders/features/feature-5.svg"
     },
     "channeling": {
       "title": "Channeling Centers",
-      "image": "assets/placeholders/solutions/channeling-preview.svg",
-      "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal \u2014 so your team handles less phone calls.",
+      "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal — so your team handles less phone calls.",
       "cards": [
         {
           "title": "Reception flow",
@@ -95,22 +94,28 @@
           "desc": "Rules-based online booking."
         }
       ],
-      "cta": "Book Demo"
+      "cta": "Book Demo",
+      "previewImage": "assets/placeholders/features/feature-2.svg",
+      "tileImage": "assets/placeholders/features/feature-2.svg",
+      "previewTitle": "Channeling preview",
+      "image": "assets/placeholders/features/feature-2.svg"
     },
     "multi": {
       "title": "Multi-doctor Clinics",
-      "image": "assets/placeholders/solutions/multidoctor-preview.svg",
       "desc": "Role-based workflows so reception, nurses, doctors, and managers each see what matters.",
       "bullets": [
         "Role-based dashboards",
         "Controlled access by staff role",
         "Reporting visibility"
       ],
-      "cta": "Book Demo"
+      "cta": "Book Demo",
+      "previewImage": "assets/placeholders/features/feature-1.svg",
+      "tileImage": "assets/placeholders/features/feature-1.svg",
+      "previewTitle": "Multi preview",
+      "image": "assets/placeholders/features/feature-1.svg"
     },
     "group": {
       "title": "Multi-branch Groups",
-      "image": "assets/placeholders/solutions/multibranch-preview.svg",
       "desc": "Standardize workflows, manage operational visibility, and keep staff access under control.",
       "cards": [
         {

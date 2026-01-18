@@ -61,35 +61,6 @@
       if(!val) return;
       img.setAttribute('src', val);
     });
-    // repeat templates: containers with data-repeat expected to contain a child with data-template
-    document.querySelectorAll('[data-repeat]').forEach(container=>{
-      const key = container.getAttribute('data-repeat');
-      const arr = deepGet(data, key) || [];
-      const tpl = container.querySelector('[data-template]');
-      if(!tpl) return;
-      tpl.style.display = 'none';
-      arr.forEach(item=>{
-        const node = tpl.cloneNode(true);
-        node.removeAttribute('data-template');
-        node.style.display = '';
-        // set simple content fields
-        node.querySelectorAll('[data-item-content]').forEach(el=>{
-          const prop = el.getAttribute('data-item-content');
-          const val = item[prop];
-          if(val===undefined||val===null) return;
-          if(el.tagName==='IMG') el.setAttribute('src', String(val));
-          else el.textContent = String(val);
-        });
-        // set hrefs when element has data-item-href="prop"
-        node.querySelectorAll('[data-item-href]').forEach(el=>{
-          const prop = el.getAttribute('data-item-href');
-          const val = item[prop];
-          if(!val) return;
-          el.setAttribute('href', '#'+String(val));
-        });
-        container.appendChild(node);
-      });
-    });
     // active nav item
     document.querySelectorAll('[data-nav]').forEach(a=>{
       if(a.getAttribute('data-nav')===page.replace('.html','')) a.classList.add('font-semibold','text-slate-900');
