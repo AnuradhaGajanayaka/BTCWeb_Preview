@@ -45,5 +45,35 @@
     }
   ],
   "ctaTitle": "Want to see the Dental Suite in action?",
-  "ctaSub": "A 15-minute demo shows the chair-side workflow and planning features."
+  "ctaSub": "A 15-minute demo shows the chair-side workflow and planning features.",
+  "caseStudy": {
+    "badge": "Dental Suite Case Study",
+    "title": "How a traditional dental clinic transformed into a modern practice",
+    "subtitle": "A short real-world story about reducing reception workload, improving patient experience, and creating a calm, digital workflow.",
+    "points": [
+      "Before → after workflow with real examples",
+      "WhatsApp reminders + fewer no-shows",
+      "Treatment notes and chair-side efficiency"
+    ],
+    "fileTitle": "PDF Case Study",
+    "fileMeta": "2 pages • 3 min read",
+    "fileTag": "Clinic transformation",
+    "formTitle": "Download the case study",
+    "formSubtitle": "Enter your details — we’ll share the PDF instantly.",
+    "labels": {
+      "name": "Name",
+      "clinic": "Clinic",
+      "whatsapp": "WhatsApp Number"
+    },
+    "placeholders": {
+      "name": "Dr. Perera",
+      "clinic": "Green Smile Dental",
+      "whatsapp": "+94 77 123 4567"
+    },
+    "helpText": "We’ll only use this to share the PDF and assist with your demo if requested.",
+    "primaryCta": "Get the case study",
+    "secondaryCta": "Preview PDF",
+    "successText": "Thanks! The PDF is opening in a new tab.",
+    "pdfUrl": "assets/case-studies/dental-suite-clinic-transformation.pdf"
+  }
 }

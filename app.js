@@ -20,6 +20,8 @@
     let pageData={};
     try{ pageData=await loadJSON(base+'content/'+page+'.json'); }catch(e){ /* optional */ }
     const data=merge(shared,pageData);
+    // Expose merged content for small interactive widgets (demo-only)
+    window.__content = data;
     // Apply meta if present
     if(data.meta){
       if(data.meta.title) document.title=data.meta.title;
@@ -61,6 +63,15 @@
       if(!val) return;
       img.setAttribute('src', val);
     });
+
+    // data-placeholder for inputs
+    document.querySelectorAll('[data-placeholder]').forEach(el=>{
+      const key = el.getAttribute('data-placeholder');
+      const val = deepGet(data, key);
+      if(!val) return;
+      el.setAttribute('placeholder', String(val));
+    });
+
     // repeat templates: containers with data-repeat expected to contain a child with data-template
     document.querySelectorAll('[data-repeat]').forEach(container=>{
       const key = container.getAttribute('data-repeat');
@@ -99,4 +110,22 @@
   }catch(err){
     console.warn(err);
   }
+})();
+
+// Case study download widget (demo-only, no backend)
+(function initCaseStudy(){
+  const form = document.getElementById('caseStudyForm');
+  if(!form) return;
+
+  const direct = document.getElementById('caseStudyDirectLink');
+  const success = document.getElementById('caseStudySuccess');
+  const pdfUrl = window.__content && window.__content.caseStudy && window.__content.caseStudy.pdfUrl;
+
+  if(direct && pdfUrl) direct.setAttribute('href', pdfUrl);
+
+  form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    if(pdfUrl) window.open(pdfUrl, '_blank', 'noopener');
+    if(success) success.classList.remove('hidden');
+  });
 })();
