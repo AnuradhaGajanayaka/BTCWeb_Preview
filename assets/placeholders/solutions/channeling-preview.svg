@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFC"/>
+      <stop offset="1" stop-color="#EEF6FB"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="36" fill="url(#bg)"/>
+  <rect x="70" y="70" width="760" height="400" rx="24" fill="#ffffff" stroke="#E6EEF5" stroke-width="2"/>
+
+  <!-- Calendar icon -->
+  <rect x="120" y="132" width="84" height="84" rx="20" fill="#1D7DB6" opacity="0.08"/>
+  <g fill="none" stroke="#1D7DB6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 156h64"/>
+    <path d="M142 126v22"/>
+    <path d="M182 126v22"/>
+    <rect x="134" y="148" width="64" height="62" rx="14"/>
+    <path d="M150 172h0"/>
+    <path d="M168 172h0"/>
+    <path d="M186 172h0"/>
+  </g>
+
+  <text x="230" y="170" font-family="ui-sans-serif, system-ui" font-size="28" fill="#0F172A" font-weight="700">Channeling & Appointments</text>
+  <text x="230" y="206" font-family="ui-sans-serif, system-ui" font-size="18" fill="#475569">Web bookings, slots, and token flow.</text>
+
+  <!-- slots row -->
+  <g font-family="ui-sans-serif, system-ui" font-size="16" fill="#0F172A">
+    <rect x="120" y="260" width="140" height="56" rx="16" fill="#F7FAFC" stroke="#E6EEF5"/>
+    <text x="150" y="294" font-weight="700">09:00</text>
+
+    <rect x="280" y="260" width="140" height="56" rx="16" fill="#F7FAFC" stroke="#E6EEF5"/>
+    <text x="310" y="294" font-weight="700">09:30</text>
+
+    <rect x="440" y="260" width="140" height="56" rx="16" fill="#F7FAFC" stroke="#E6EEF5"/>
+    <text x="470" y="294" font-weight="700">10:00</text>
+
+    <rect x="600" y="260" width="140" height="56" rx="16" fill="#F7FAFC" stroke="#E6EEF5"/>
+    <text x="630" y="294" font-weight="700">10:30</text>
+  </g>
+
+  <!-- token queue -->
+  <rect x="120" y="340" width="620" height="18" rx="9" fill="#E6EEF5"/>
+  <rect x="120" y="340" width="360" height="18" rx="9" fill="#32B29A" opacity="0.55"/>
+
+  <text x="760" y="352" font-family="ui-sans-serif, system-ui" font-size="14" fill="#64748B" text-anchor="end">Queue progress</text>
+</svg>
