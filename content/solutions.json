@@ -13,6 +13,8 @@
     { "label": "Used by", "value": "50,000+ patients" },
     { "label": "Security", "value": "Bank-grade protection" }
   ],
+  "onboardingTitle": "Up and Running in Hours, Not Days",
+  "onboardingSubtitle": "Simple onboarding process with dedicated support to get your clinic digital in no time.",
   "tiles": [
     {
       "k": "dental",
@@ -142,6 +144,9 @@
         }
       ],
       "cta": "Book Demo"
+    },
+    "onboarding": {
+      "cta": "Talk to our team"
     }
   }
 }
