@@ -338,7 +338,7 @@
 </section>
 
 <footer class='border-t border-line bg-white'>
-  <div class='max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8'>
+  <div class='max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-5 gap-8'>
     <div>
       <img src='assets/logo.png' class='h-9 w-auto' alt='BISTEC Care'/>
       <p class='mt-3 text-sm text-slate-600' data-content="footerBlurb"></p>
@@ -359,21 +359,26 @@
     </div>
     <div>
       <div class='font-semibold text-sm' data-content="footerCol3Title"></div>
-      <div class='mt-3 text-sm text-slate-600 space-y-2'>
+      <div class='mt-3 space-y-2 text-sm text-slate-600'>
         <a class='block hover:text-slate-900' href='company.html' data-nav='company' data-content="footerCol3Links.0"></a>
         <a class='block hover:text-slate-900' href='contact.html' data-content="footerCol3Links.1"></a>
         <a class='block hover:text-slate-900' href='privacy-policy.html' data-content="footerCol3Links.2"></a>
         <a class='block hover:text-slate-900' href='terms.html' data-content="footerCol3Links.3"></a>
-        <div class='pt-2' data-content="footerLocation"></div>
-        <a class='block hover:text-slate-900' href='contact.html' data-content="footerActions.0"></a>
-        <a class='block hover:text-slate-900' href='contact.html' data-content="footerActions.1"></a>
+      </div>
+    </div>
+    <div>
+      <div class='font-semibold text-sm' data-content="footerCol4Title"></div>
+      <div class='mt-3 text-sm text-slate-600 space-y-2'>
+        <div data-content="footerCol4Links.0"></div>
+        <a class='block hover:text-slate-900' href='contact.html' data-content="footerCol4Links.1"></a>
+        <a class='block hover:text-slate-900' href='contact.html' data-content="footerCol4Links.2"></a>
       </div>
     </div>
   </div>
   <div class='border-t border-line'>
     <div class='max-w-6xl mx-auto px-4 py-6 text-xs text-slate-500 flex flex-wrap gap-3 justify-between'>
-      <span data-content="copyright"></span>
-      <span data-content="privacy"></span>
+      <span data-html="true" data-content="copyright"></span>
+      <a class='hover:text-slate-700' href='privacy-policy.html' data-content="privacy"></a>
     </div>
   </div>
 </footer>

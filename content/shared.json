@@ -32,8 +32,8 @@
   "footerCol2Links": ["Resources", "Blog"],
   "footerCol3Title": "Company",
   "footerCol3Links": ["Company", "Contact", "Privacy Policy", "Terms of Service"],
-  "footerLocation": "Colombo, Sri Lanka",
-  "footerActions": ["WhatsApp Sales", "Book a Demo"],
+  "footerCol4Title": "Getting in touch",
+  "footerCol4Links": ["Colombo, Sri Lanka", "WhatsApp Sales", "Book a Demo"],
   "copyright": "© 2026 BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
   "site": {
