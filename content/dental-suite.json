@@ -3,5 +3,47 @@
     "title": "BISTEC Care — Dental-Suite",
     "description": "",
     "ogImage": "assets/og-placeholder.png"
-  }
+  },
+  "topTitle": "Dental Suite",
+  "topDesc": "Dental workflows built for chair-side speed — charting, BPE and planning.",
+  "heroTitle": "Dental workflows, built for chair-side speed.",
+  "heroSub": "Charting, BPE, planning, and dental history — made simple and visual for dental teams.",
+  "cta1": "Book a Demo",
+  "cta2": "View Full Product",
+  "featureTitle": "Designed for real dental practice",
+  "featureSub": "Focus on patients — not paperwork.",
+  "features": [
+    {
+      "badge": "CORE",
+      "title": "Dental charting & history",
+      "desc": "Fast chair-side charting built for daily use."
+    },
+    {
+      "badge": "ASSESSMENT",
+      "title": "BPE charting",
+      "desc": "Structured periodontal examination record."
+    },
+    {
+      "badge": "VISUAL",
+      "title": "Visual examination & planner",
+      "desc": "Plan treatments using visual workflows."
+    },
+    {
+      "badge": "PLANNING",
+      "title": "Dental treatment planner",
+      "desc": "Create plans across future visits and track execution."
+    },
+    {
+      "badge": "CLINICAL",
+      "title": "SOAP notes + uploads",
+      "desc": "Attach images and documents with consultation history."
+    },
+    {
+      "badge": "INTEGRATED",
+      "title": "Works as part of the full system",
+      "desc": "Appointments, patient portal, prescriptions, inventory & reporting."
+    }
+  ],
+  "ctaTitle": "Want to see the Dental Suite in action?",
+  "ctaSub": "A 15-minute demo shows the chair-side workflow and planning features."
 }

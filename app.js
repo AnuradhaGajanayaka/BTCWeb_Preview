@@ -3,11 +3,7 @@
 (async function(){
   const html=document.documentElement;
   const page=html.getAttribute('data-page')||'index';
-  // Base path for GitHub Pages + local previews.
-  // Resolve content and assets relative to the current directory to avoid hard-coding repo names.
-  const base = location.pathname.endsWith('/')
-    ? location.pathname
-    : location.pathname.replace(/[^/]*$/,'');
+  const base=location.pathname.includes('/BTCWeb_Preview/') ? '/BTCWeb_Preview/' : (location.pathname.endsWith('/')?location.pathname:location.pathname.replace(/[^/]*$/,''));
   async function loadJSON(url){
     const res=await fetch(url,{cache:'no-store'});
     if(!res.ok) throw new Error('Failed to load '+url);
@@ -76,15 +72,6 @@
         const node = tpl.cloneNode(true);
         node.removeAttribute('data-template');
         node.style.display = '';
-
-        // Smart link mapping for tiles/cards
-        // - If an item has "k" (key), link to #<k>
-        // - Special case: "help" tile goes to contact page
-        if(node.tagName === 'A' && item && item.k){
-          const k = String(item.k);
-          if(k.toLowerCase() === 'help') node.setAttribute('href','contact.html');
-          else node.setAttribute('href', '#' + k);
-        }
         // set simple content fields
         node.querySelectorAll('[data-item-content]').forEach(el=>{
           const prop = el.getAttribute('data-item-content');
