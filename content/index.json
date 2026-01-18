@@ -1,5 +1,4 @@
 {
-  
   "heroSub": "Appointments, patient records, SOAP notes, treatments, pharmacy & insights — in one modern system.",
   "heroCtaPrimary": "Book a Demo",
   "heroCtaSecondary": "WhatsApp Sales",
@@ -113,23 +112,7 @@
   "finalCtaPrimary": "Book a Demo",
   "finalCtaSecondary": "WhatsApp Sales",
   "footerBlurb": "Modern practice management software for clinics.",
-  "footerCol1Title": "Product",
-  "footerCol1Links": [
-    "Overview",
-    "Dental Suite",
-    "Pricing"
-  ],
-  "footerCol2Title": "Company",
-  "footerCol2Links": [
-    "About",
-    "Contact"
-  ],
-  "footerCol3Title": "Get in touch",
   "footerLocation": "Colombo, Sri Lanka",
-  "footerActions": [
-    "WhatsApp Sales",
-    "Book a Demo"
-  ],
   "copyright": "© <span id='y'></span> BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
   "operatingTitle": "A complete operating system for clinics",

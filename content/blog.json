@@ -1,38 +1,22 @@
 {
   "introTag": "Blog",
   "introTitle": "Insights for modern clinics",
-  "introSub": "Practical guides for reception, doctors and clinic owners \u2014 from workflows to patient experience.",
+  "introSub": "Practical guides for reception, doctors and clinic owners — from workflows to patient experience.",
   "blogCtaTop": "Book a Demo",
   "finalCtaTitle": "Want to see BISTEC Care in action?",
   "finalCtaSub": "Book a quick demo and see how clinics reduce admin and run smoother.",
   "finalCtaPrimary": "Book a Demo",
   "finalCtaSecondary": "WhatsApp Sales",
   "footerBlurb": "Modern practice management software for clinics.",
-  "footerCol1Title": "Product",
-  "footerCol1Links": [
-    "Overview",
-    "Dental Suite",
-    "Pricing"
-  ],
-  "footerCol2Title": "Company",
-  "footerCol2Links": [
-    "About",
-    "Contact"
-  ],
-  "footerCol3Title": "Get in touch",
   "footerLocation": "Colombo, Sri Lanka",
-  "footerActions": [
-    "WhatsApp Sales",
-    "Book a Demo"
-  ],
-  "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
+  "copyright": "© <span id='y'></span> BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
   "featured": "soap-notes-in-90-seconds",
   "posts": [
     {
       "slug": "soap-notes-in-90-seconds",
       "title": "SOAP notes in 90 seconds: a practical clinic workflow",
-      "excerpt": "How clinics can standardize notes, reduce missing information, and make follow-ups easier \u2014 without slowing doctors down.",
+      "excerpt": "How clinics can standardize notes, reduce missing information, and make follow-ups easier — without slowing doctors down.",
       "date": "2026-01-10",
       "tags": [
         "Clinical",
@@ -68,7 +52,7 @@
   ],
   "seo": {
     "title": "BISTEC Care Blog",
-    "description": "Insights for modern clinics \u2014 workflows, reception efficiency, clinical documentation and security best practices.",
+    "description": "Insights for modern clinics — workflows, reception efficiency, clinical documentation and security best practices.",
     "ogImage": "assets/blog/cover-1.svg"
   }
 }

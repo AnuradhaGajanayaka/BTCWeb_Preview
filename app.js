@@ -3,7 +3,20 @@
 (async function(){
   const html=document.documentElement;
   const page=html.getAttribute('data-page')||'index';
-  const base=location.pathname.includes('/BTCWeb_Preview/') ? '/BTCWeb_Preview/' : (location.pathname.endsWith('/')?location.pathname:location.pathname.replace(/[^/]*$/,''));
+  // Compute base path robustly for GitHub Pages (any repo name), subfolders, and local preview.
+  // We derive it from the loaded app.js script URL so we don't hardcode repo names.
+  const appJsSrc = Array.from(document.scripts)
+    .map(s => s.src || '')
+    .find(src => /\/app\.js(\?|$)/.test(src));
+
+  // If app.js is loaded with an absolute URL, keep the origin+path prefix.
+  // Example: https://user.github.io/repo/app.js  -> base = https://user.github.io/repo/
+  // Example: file:///.../app.js -> base = file:///.../
+  const base = appJsSrc
+    ? appJsSrc.replace(/app\.js(\?.*)?$/, '')
+    : (location.pathname.endsWith('/')
+        ? location.pathname
+        : location.pathname.replace(/[^/]*$/, ''));
   async function loadJSON(url){
     const res=await fetch(url,{cache:'no-store'});
     if(!res.ok) throw new Error('Failed to load '+url);

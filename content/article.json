@@ -6,24 +6,8 @@
   "sidebarCta": "Talk to us",
   "relatedTitle": "More articles",
   "footerBlurb": "Modern practice management software for clinics.",
-  "footerCol1Title": "Product",
-  "footerCol1Links": [
-    "Overview",
-    "Dental Suite",
-    "Pricing"
-  ],
-  "footerCol2Title": "Company",
-  "footerCol2Links": [
-    "About",
-    "Contact"
-  ],
-  "footerCol3Title": "Get in touch",
   "footerLocation": "Colombo, Sri Lanka",
-  "footerActions": [
-    "WhatsApp Sales",
-    "Book a Demo"
-  ],
-  "copyright": "\u00a9 <span id='y'></span> BISTEC Care. All rights reserved.",
+  "copyright": "© <span id='y'></span> BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
   "seo": {
     "title": "BISTEC Care Blog Article",

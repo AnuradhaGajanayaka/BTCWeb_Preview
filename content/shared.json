@@ -25,6 +25,17 @@
     "about": "About",
     "contact": "Contact"
   },
+  "footerBlurb": "Modern practice management software for clinics.",
+  "footerCol1Title": "Product",
+  "footerCol1Links": ["Overview", "Solutions"],
+  "footerCol2Title": "Resources",
+  "footerCol2Links": ["Resources", "Blog"],
+  "footerCol3Title": "Company",
+  "footerCol3Links": ["Company", "Contact", "Privacy Policy", "Terms of Service"],
+  "footerLocation": "Colombo, Sri Lanka",
+  "footerActions": ["WhatsApp Sales", "Book a Demo"],
+  "copyright": "© 2026 BISTEC Care. All rights reserved.",
+  "privacy": "Privacy Policy",
   "site": {
     "brand": "BISTEC Care"
   }
