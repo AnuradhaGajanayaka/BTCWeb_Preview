@@ -3,7 +3,11 @@
 (async function(){
   const html=document.documentElement;
   const page=html.getAttribute('data-page')||'index';
-  const base=location.pathname.includes('/BTCWeb_Preview/') ? '/BTCWeb_Preview/' : (location.pathname.endsWith('/')?location.pathname:location.pathname.replace(/[^/]*$/,''));
+  // Base path for GitHub Pages + local previews.
+  // Resolve content and assets relative to the current directory to avoid hard-coding repo names.
+  const base = location.pathname.endsWith('/')
+    ? location.pathname
+    : location.pathname.replace(/[^/]*$/,'');
   async function loadJSON(url){
     const res=await fetch(url,{cache:'no-store'});
     if(!res.ok) throw new Error('Failed to load '+url);
