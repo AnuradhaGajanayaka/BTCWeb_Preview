@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title>Help preview — minimalist Scandinavian illustration</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#F7FAFC"/>
+      <stop offset="1" stop-color="#EEF6F8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g transform="translate(130 120)">
+    <rect x="0" y="0" width="940" height="560" rx="24" fill="#ffffff" stroke="#E6EEF5" stroke-width="2"/>
+    <g transform="translate(60 60)" fill="#1D7DB6">
+      <circle cx="80" cy="80" r="48" fill="#E6F6FA"/>
+      <path d="M80 56c-13 0-24 11-24 24h16c0-4 4-8 8-8s8 4 8 8c0 8-12 10-12 22h16c0-12 12-16 12-30 0-13-11-24-24-24z" fill="#1D7DB6"/>
+      <rect x="160" y="24" width="520" height="48" rx="8" fill="#F7FAFC" stroke="#E6EEF5"/>
+      <rect x="160" y="92" width="360" height="32" rx="6" fill="#F7FAFC" stroke="#E6EEF5"/>
+      <rect x="160" y="140" width="240" height="32" rx="6" fill="#F7FAFC" stroke="#E6EEF5"/>
+    </g>
+    <g transform="translate(60 300)" fill="#32B29A">
+      <rect x="0" y="0" width="80" height="12" rx="6"/>
+      <rect x="100" y="0" width="220" height="12" rx="6"/>
+      <rect x="340" y="0" width="280" height="12" rx="6"/>
+    </g>
+  </g>
+</svg>
