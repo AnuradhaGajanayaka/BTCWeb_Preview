@@ -15,6 +15,14 @@
   ],
   "onboardingTitle": "Up and Running in Hours, Not Days",
   "onboardingSubtitle": "Simple onboarding process with dedicated support to get your clinic digital in no time.",
+  "onboardingTag": "🚀 Get Started",
+  "onboardingSecondaryCta": "View Pricing",
+  "onboardingSteps": [
+    { "n": "1", "title": "Sign Up", "desc": "Create your account and tell us about your clinic in a few minutes." },
+    { "n": "2", "title": "Setup", "desc": "We configure your schedule, services, and staff roles for you." },
+    { "n": "3", "title": "Train", "desc": "A short guided session for your team — typically under 2 hours." },
+    { "n": "4", "title": "Go Live", "desc": "Start managing appointments and workflows with confidence." }
+  ],
   "tiles": [
     {
       "k": "dental",
