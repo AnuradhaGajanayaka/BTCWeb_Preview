@@ -54,6 +54,7 @@
   "sections": {
     "dental": {
       "title": "Dental Clinics",
+      "previewTitle": "Dental preview",
       "image": "assets/placeholders/solutions/dental-preview.svg",
       "desc": "Specialist chair-side workflow and dental planning.",
       "bullets": [
@@ -67,6 +68,7 @@
     },
     "skin": {
       "title": "Skin / Aesthetic Clinics",
+      "previewTitle": "Skin preview",
       "image": "assets/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, images, progress tracking, and planned follow-ups.",
       "bullets": [
@@ -79,6 +81,7 @@
     },
     "channeling": {
       "title": "Channeling Centers",
+      "previewTitle": "Channeling preview",
       "image": "assets/placeholders/solutions/channeling-preview.svg",
       "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal \u2014 so your team handles less phone calls.",
       "cards": [
@@ -99,6 +102,7 @@
     },
     "multi": {
       "title": "Multi-doctor Clinics",
+      "previewTitle": "Team workflow preview",
       "image": "assets/placeholders/solutions/multidoctor-preview.svg",
       "desc": "Role-based workflows so reception, nurses, doctors, and managers each see what matters.",
       "bullets": [
@@ -110,6 +114,7 @@
     },
     "group": {
       "title": "Multi-branch Groups",
+      "previewTitle": "Multi-branch preview",
       "image": "assets/placeholders/solutions/multibranch-preview.svg",
       "desc": "Standardize workflows, manage operational visibility, and keep staff access under control.",
       "cards": [
