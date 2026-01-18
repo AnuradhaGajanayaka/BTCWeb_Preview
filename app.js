@@ -76,6 +76,15 @@
         const node = tpl.cloneNode(true);
         node.removeAttribute('data-template');
         node.style.display = '';
+
+        // Smart link mapping for tiles/cards
+        // - If an item has "k" (key), link to #<k>
+        // - Special case: "help" tile goes to contact page
+        if(node.tagName === 'A' && item && item.k){
+          const k = String(item.k);
+          if(k.toLowerCase() === 'help') node.setAttribute('href','contact.html');
+          else node.setAttribute('href', '#' + k);
+        }
         // set simple content fields
         node.querySelectorAll('[data-item-content]').forEach(el=>{
           const prop = el.getAttribute('data-item-content');
