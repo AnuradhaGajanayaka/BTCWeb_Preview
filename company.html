@@ -19,16 +19,16 @@
     </a>
     <nav class='hidden md:flex items-center gap-7 text-sm'>
       <a class='text-slate-700 hover:text-slate-900' href='index.html' data-nav='index'><span data-content="nav.home"></span></a>
-<a class='text-slate-700 hover:text-slate-900' href='product.html' data-nav='product' ><span data-content=\"nav.product\"></span></a>
-      <a class='text-slate-700 hover:text-slate-900' href='solutions.html' data-nav='solutions' ><span data-content=\"nav.solutions\"></span></a>
+<a class='text-slate-700 hover:text-slate-900' href='product.html' data-nav='product' data-content="nav.product"></a>
+      <a class='text-slate-700 hover:text-slate-900' href='solutions.html' data-nav='solutions' data-content="nav.solutions"></a>
       <a class='text-slate-700 hover:text-slate-900' href='dental-suite.html' data-nav='dental-suite' ><span data-content="nav.dentalSuite"></span></a>
-      <a class='text-slate-700 hover:text-slate-900' href='pricing.html' data-nav='pricing' ><span data-content=\"nav.pricing\"></span></a>
-      <a class='text-slate-700 hover:text-slate-900' href='resources.html' data-nav='resources' ><span data-content=\"nav.resources\"></span></a>
+      <a class='text-slate-700 hover:text-slate-900' href='pricing.html' data-nav='pricing' data-content="nav.pricing"></a>
+      <a class='text-slate-700 hover:text-slate-900' href='resources.html' data-nav='resources' data-content="nav.resources"></a>
       <a class='text-slate-700 hover:text-slate-900' href='blog.html' data-nav='blog'><span data-content="nav.blog"></span></a>
-<a class='text-slate-700 hover:text-slate-900' href='company.html' data-nav='company' ><span data-content=\"nav.company\"></span></a>
+<a class='text-slate-700 hover:text-slate-900' href='company.html' data-nav='company' data-content="nav.company"></a>
     </nav>
     <div class='flex items-center gap-3'>
-      <a href='contact.html' class='hidden sm:inline text-sm font-semibold text-slate-700 hover:text-slate-900' ><span data-content=\"nav.whatsapp\"></span></a>
+      <a href='contact.html' class='hidden sm:inline text-sm font-semibold text-slate-700 hover:text-slate-900' data-content="nav.whatsapp"></a>
       <a href='contact.html' class='rounded-xl bg-brandBlue px-4 py-2 text-sm font-semibold text-white shadow hover:opacity-95'><span data-content="cta.bookDemo"></span></a>
     </div>
   </div>
@@ -97,6 +97,20 @@
     <div class='inline-flex items-center gap-2 rounded-full bg-brandBlue/10 text-brandBlue px-3 py-1 text-xs font-semibold'>Security</div>
     <h2 class='mt-4 text-2xl font-semibold tracking-tight'>Bank-grade security approach</h2>
     <p class='mt-3 text-slate-600 max-w-3xl'>Clinics deal with sensitive patient data. We design with secure access controls and operational accountability.</p>
+  </div>
+</section>
+
+<section class='max-w-6xl mx-auto px-4 py-16'>
+  <h2 class='text-2xl font-semibold'>Our team</h2>
+  <p class='mt-2 text-sm text-slate-600'>Meet a few people who keep things running.</p>
+  <div class='mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6' data-repeat="team">
+    <div data-template class='rounded-2xl border border-line bg-white p-4 flex items-center gap-4'>
+      <img data-item-content="image" src='' alt='' class='h-14 w-14 rounded-full object-cover'/>
+      <div>
+        <div class='font-semibold' data-item-content="name"></div>
+        <div class='text-sm text-slate-600' data-item-content="role"></div>
+      </div>
+    </div>
   </div>
 </section>
 
