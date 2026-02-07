@@ -1,25 +1,5 @@
 {
-  "heroSub": "Appointments, patient records, SOAP notes, treatments, pharmacy & insights — in one modern system.",
-  "heroCtaPrimary": "Book a Demo",
   "heroCtaSecondary": "WhatsApp Sales",
-  "trustBand": [
-    {
-      "value": "50+",
-      "label": "Clinics Trusted"
-    },
-    {
-      "value": "50,000+",
-      "label": "Patient Records"
-    },
-    {
-      "value": "Bank-grade",
-      "label": "Security"
-    },
-    {
-      "value": "24/7",
-      "label": "Local Support"
-    }
-  ],
   "osTitle": "A complete operating system for clinics",
   "osSub": "Reception, doctors and management — aligned in one workflow.",
   "pillars": [
@@ -155,10 +135,5 @@
       "desc": "Control stock and movement.",
       "image": "assets/placeholders/features/feature-6.svg"
     }
-  ],
-  "heroTitlePrefix": "Run your clinic with ",
-  "heroTitleBlue": " less admin ",
-  "heroTitleMid": " and ",
-  "heroTitleGreen": " more care",
-  "heroTitleSuffix": "."
+  ]
 }
