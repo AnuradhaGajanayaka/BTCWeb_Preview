@@ -2,8 +2,9 @@
   "heroCtaSecondary": "WhatsApp Sales",
   "osTitle": "A complete operating system for clinics",
   "osSub": "BISTEC Care is a modern clinic management software built for medical practices. It helps clinics manage patient records, doctor appointments, billing, and reporting in one easy-to-use medical practice management system.",
-  "seoTitle": "Clinic Management Software Built for Modern Medical Practices",
-  "seoBody": "<p>BISTEC Care is an all-in-one medical practice management software designed to simplify how clinics operate. From appointment scheduling and patient management to billing, doctor fees, and inventory control, BISTEC Care helps clinics run efficiently without unnecessary complexity.</p><p>Unlike generic healthcare systems, BISTEC Care is built to support real clinic workflows, combining both digital tools and essential manual controls. Clinics can manage daily appointments, track patient visits, generate bills, and monitor revenue using a single clinic management system.</p><p>Whether you operate a solo practice or a multi-doctor clinic, BISTEC Care provides the flexibility and reliability needed to manage your medical practice with confidence.</p>",
+  "heroSupporting": "Trusted by clinics to simplify workflows, reduce paperwork, and run medical practices with confidence.",
+  "seoTitle": "Clinic Management Software Built for Real Medical Practices",
+  "seoBody": "<p>BISTEC Care is a modern <strong>medical practice management software</strong> built to support how clinics actually operate. From appointment scheduling and patient management to billing, doctor fees, and inventory tracking, BISTEC Care brings all essential clinic operations into a single, easy-to-use <strong>clinic management system</strong>.</p><p>Unlike generic healthcare platforms, BISTEC Care is designed to work with real-world clinic workflows — combining digital efficiency with the flexibility clinics need for manual control. Clinics can manage daily appointments, maintain patient records, generate bills, and monitor revenue without disrupting existing processes.</p><p>Whether you run a solo medical practice or a multi-doctor clinic, BISTEC Care provides a reliable and scalable solution to manage your medical practice efficiently and professionally.</p>",
   "pillars": [
     {
       "kicker": "PILLAR 1",
@@ -56,8 +57,8 @@
       "desc": "Control stock levels, manage GRN validation, and track pharmacy inventory movement in real-time."
     }
   ],
-  "whoTitle": "Who Uses BISTEC Care?",
-  "whoBody": "BISTEC Care is used by private clinics, medical practices, and healthcare professionals looking for a reliable clinic management software to manage appointments, patients, and billing efficiently. It is designed to adapt to the unique workflows of various medical specialties.",
+  "whoTitle": "Who Is BISTEC Care For?",
+  "whoBody": "BISTEC Care is ideal for private clinics, medical practices, and healthcare professionals looking for a dependable <strong>clinic management software</strong> to manage appointments, patients, billing, and clinic operations in one system.",
   "whoList": [
     "General Practitioners (GP)",
     "Dental Clinics",
