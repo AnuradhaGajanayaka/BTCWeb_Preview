@@ -57,11 +57,15 @@ Each page can contain:
 "meta": {
   "title": "BISTEC Care — Product",
   "description": "…",
-  "ogImage": "assets/og-placeholder.png"
+  "ogImage": "assets/images/global/og-placeholder.png"
 }
 ```
 
-## 5) Publishing to GitHub
+### 5) Images
+- Place blog covers in `assets/images/blog/`
+- Place client logos in `assets/images/clients/`
+
+## 6) Publishing to GitHub
 Push the whole folder structure including:
 - `content/`
 - `assets/`

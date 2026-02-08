@@ -2,9 +2,10 @@ BISTEC Care Preview Website (Scandinavian Style)
 
 This bundle includes:
 - All HTML pages
-- assets/hero-bg.svg: subtle Scandinavian background for top bands
-- assets/ui-mockup.png: placeholder dashboard image
-- assets/logo-placeholder.png: placeholder logo (optional)
+- `assets/images/`: Images organized by category (global, icons, blog, hero, etc.)
+- `assets/images/hero/hero-bg.svg`: subtle Scandinavian background for top bands
+- `assets/images/placeholders/ui-mockup.png`: placeholder dashboard image
+- `assets/images/placeholders/logo-placeholder.png`: placeholder logo (optional)
 
 GitHub Pages hosting:
 1) Create a new GitHub repo (public)
@@ -12,6 +13,4 @@ GitHub Pages hosting:
 3) Settings -> Pages -> Deploy from branch -> main / root
 4) Open the URL given by GitHub Pages
 
-Replace images:
-- Put your real logo as assets/logo.png (same filename)
 - Replace assets/ui-mockup.png with real screenshots
