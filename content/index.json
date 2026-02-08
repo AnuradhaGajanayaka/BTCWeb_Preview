@@ -2,19 +2,19 @@
   "heroCtaSecondary": "WhatsApp Sales",
   "osTitle": "A complete operating system for clinics",
   "osSub": "BISTEC Care is a modern clinic management software built for medical practices. It helps clinics manage patient records, doctor appointments, billing, and reporting in one easy-to-use medical practice management system.",
-  "heroSupporting": "Trusted by clinics to simplify workflows, reduce paperwork, and run medical practices with confidence.",
+  "heroSupporting": "Trusted by clinics to simplify workflows, reduce paperwork, and run medical practices with confidence for better patient loyalty and inceased revenue.",
   "seoTitle": "Clinic Management Software Built for Real Medical Practices",
-  "seoBody": "<p>BISTEC Care is a modern <strong>medical practice management software</strong> built to support how clinics actually operate. From appointment scheduling and patient management to billing, doctor fees, and inventory tracking, BISTEC Care brings all essential clinic operations into a single, easy-to-use <strong>clinic management system</strong>.</p><p>Unlike generic healthcare platforms, BISTEC Care is designed to work with real-world clinic workflows — combining digital efficiency with the flexibility clinics need for manual control. Clinics can manage daily appointments, maintain patient records, generate bills, and monitor revenue without disrupting existing processes.</p><p>Whether you run a solo medical practice or a multi-doctor clinic, BISTEC Care provides a reliable and scalable solution to manage your medical practice efficiently and professionally.</p>",
+  "seoBody": "<p>BISTEC Care is a modern <strong>medical practice management software</strong> built to support how clinics actually operate. From appointment scheduling and patient EMR to billing, doctor fees, and inventory tracking, BISTEC Care brings all essential clinic operations into a single, easy-to-use <strong>clinic management system</strong>.</p><p>Unlike generic healthcare platforms, BISTEC Care is designed to work with real-world clinic workflows — combining digital efficiency with the flexibility clinics need for manual control. Clinics can manage daily appointments, maintain patient records, generate bills, and monitor revenue without disrupting existing processes.</p><p>Whether you run a solo medical practice or a multi-doctor clinic, BISTEC Care provides a reliable and scalable solution to manage your medical practice efficiently and professionally.</p>",
   "pillars": [
     {
       "kicker": "PILLAR 1",
       "title": "Front Desk & Patient Experience",
-      "desc": "Smart registration, quick search, token flow and portal."
+      "desc": "Smart registration, quick search, token flow and branded patient portal."
     },
     {
       "kicker": "PILLAR 2",
       "title": "Clinical Excellence",
-      "desc": "Doctor Clinical Notes & EMR, uploads, investigations and AI summary."
+      "desc": "Doctor Clinical Notes & EMR, attachments, e-prescriptions, investigations and AI summary."
     },
     {
       "kicker": "PILLAR 3",
@@ -29,32 +29,32 @@
     {
       "tag": "PATIENTS",
       "title": "Patient Management System & Registration",
-      "desc": "Maintain digital patient records and visit history with a secure patient management system."
+      "desc": "Maintain digital patient records and visit history using a secure patient management system for clinics."
     },
     {
       "tag": "BOOKING",
-      "title": "Appointment Scheduling for Clinics",
-      "desc": "Manage doctor availability and patient appointments using an intuitive appointment scheduling system for clinics."
+      "title": "Clinic Appointment Scheduling",
+      "desc": "Manage doctor availability and patient bookings with an intuitive appointment scheduling system for clinics."
     },
     {
       "tag": "PORTAL",
-      "title": "Branded portal",
-      "desc": "Booking rules + family booking."
+      "title": "Branded Patient Portal",
+      "desc": "Online appointment booking with booking rules and family member access, with your clinic branding."
     },
     {
       "tag": "CLINICAL",
       "title": "Doctor Clinical Notes & EMR",
-      "desc": "Create detailed SOAP notes, upload reports, and manage electronic medical records (EMR) seamlessly."
+      "desc": "CCreate SOAP notes, upload reports, and manage electronic medical records and prescriptions seamlessly."
     },
     {
       "tag": "TREATMENTS",
-      "title": "Treatment planning",
-      "desc": "Plan future visits."
+      "title": "Visual Treatment Planning & Execution",
+      "desc": "Create treatment plans, track progress, and manage follow-up visits with ease."
     },
     {
-      "tag": "PHARMACY",
-      "title": "Inventory Management for Medical Practices",
-      "desc": "Control stock levels, manage GRN validation, and track pharmacy inventory movement in real-time."
+      "tag": "INVENTORY",
+      "title": "Clinic Inventory Management",
+      "desc": "Track stock levels, validate GRNs, and monitor inventory movement in real-time."
     }
   ],
   "whoTitle": "Who Is BISTEC Care For?",
@@ -70,10 +70,10 @@
   "dentalTitle": "Dental Suite built for chair-side workflow",
   "dentalSub": "Dental charting, BPE and planning — designed for dental clinics.",
   "dentalBullets": [
-    "• Dental charting & history",
-    "• BPE chart",
-    "• Visual examination & planner",
-    "• Treatment planning"
+    "• Visual Dental Charting & History",
+    "• BPE and Periodontal Charting",
+    "• Visual Examination & Treatment Planner",
+    "• Dental Optimized Clinical Workflow"
   ],
   "dentalCta": "Explore Dental Suite",
   "dentalMockTitle": "Replace with dental UI screenshot",
@@ -103,7 +103,7 @@
   "finalCtaSub": "A quick demo to understand how clinics reduce admin and run smoother — with bank-grade security.",
   "finalCtaPrimary": "Book a Demo",
   "finalCtaSecondary": "WhatsApp Sales",
-  "footerBlurb": "Modern practice management software for clinics.",
+  "footerBlurb": "Modern medical practice management software for clinics.",
   "footerLocation": "Colombo, Sri Lanka",
   "copyright": "© <span id='y'></span> BISTEC Care. All rights reserved.",
   "privacy": "Privacy Policy",
