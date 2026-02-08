@@ -28,33 +28,33 @@
   "features": [
     {
       "tag": "PATIENTS",
-      "title": "Patient Management System & Registration",
-      "desc": "Maintain digital patient records and visit history using a secure patient management system for clinics."
+      "title": "Patient Registration & Management",
+      "desc": "Maintain digital patient records and visit history using a secure patient management system."
     },
     {
       "tag": "BOOKING",
       "title": "Clinic Appointment Scheduling",
-      "desc": "Manage doctor availability and patient bookings with an intuitive appointment scheduling system for clinics."
+      "desc": "Manage doctor availability and patient bookings with an intuitive scheduling system."
     },
     {
       "tag": "PORTAL",
       "title": "Branded Patient Portal",
-      "desc": "Online appointment booking with booking rules and family member access, with your clinic branding."
+      "desc": "Online appointment booking with booking rules, multi-patient booking, & clinic branding."
     },
     {
       "tag": "CLINICAL",
       "title": "Doctor Clinical Notes & EMR",
-      "desc": "Create SOAP notes, upload reports, and manage electronic medical records and prescriptions seamlessly."
+      "desc": "Create SOAP notes, upload reports, and manage EMRs and prescriptions digitally."
     },
     {
       "tag": "TREATMENTS",
       "title": "Visual Treatment Planning & Execution",
-      "desc": "Create treatment plans, track progress, and manage follow-up visits throughout patient treatment journeys."
+      "desc": "Create treatment plans, track progress, manage follow-up visits across patient journey."
     },
     {
       "tag": "INVENTORY",
       "title": "Clinic Inventory Management",
-      "desc": "Track stock levels and purchases, reduce waste, control costs, and monitor inventory movement in real time across locations."
+      "desc": "TTrack stock & purchases, reduce waste, control costs, & monitor inventory across locations."
     }
   ],
   "whoTitle": "Who Is BISTEC Care For?",
@@ -84,19 +84,19 @@
       "quote": "“Reception is faster and the patient portal reduced phone calls.”",
       "name": "Clinic Owner",
       "meta": "Dental Clinic",
-      "image": "assets/clients/client-1.svg"
+      "image": "assets/images/clients/client-1.svg"
     },
     {
       "quote": "“SOAP notes and patient history improved consultation flow.”",
       "name": "Consultant",
       "meta": "Multi-doctor Clinic",
-      "image": "assets/clients/client-2.svg"
+      "image": "assets/images/clients/client-2.svg"
     },
     {
       "quote": "“Inventory & reporting gives control. Simple and modern.”",
       "name": "Clinic Manager",
       "meta": "Skin Clinic",
-      "image": "assets/clients/client-3.svg"
+      "image": "assets/images/clients/client-3.svg"
     }
   ],
   "finalCtaTitle": "See BISTEC Care in 15 minutes",
@@ -109,43 +109,43 @@
   "privacy": "Privacy Policy",
   "operatingTitle": "A complete operating system for clinics",
   "operatingSub": "Reception, doctors and management — aligned in one workflow.",
-  "operatingImage": "assets/placeholders/operating-system.png",
+  "operatingImage": "assets/images/placeholders/operating-system.png",
   "featureCards": [
     {
       "category": "PATIENTS",
       "title": "Registration + QR card",
       "desc": "Faster reception workflow.",
-      "image": "assets/placeholders/features/feature-1.svg"
+      "image": "assets/images/placeholders/features/feature-1.svg"
     },
     {
       "category": "SCHEDULING",
       "title": "Appointments + token flow",
       "desc": "Track patient movement.",
-      "image": "assets/placeholders/features/feature-2.svg"
+      "image": "assets/images/placeholders/features/feature-2.svg"
     },
     {
       "category": "PORTAL",
       "title": "Branded portal",
       "desc": "Booking rules + family booking.",
-      "image": "assets/placeholders/features/feature-3.svg"
+      "image": "assets/images/placeholders/features/feature-3.svg"
     },
     {
       "category": "CLINICAL",
       "title": "SOAP notes + uploads",
       "desc": "Clean clinical history.",
-      "image": "assets/placeholders/features/feature-4.svg"
+      "image": "assets/images/placeholders/features/feature-4.svg"
     },
     {
       "category": "TREATMENTS",
       "title": "Treatment planning",
       "desc": "Plan future visits.",
-      "image": "assets/placeholders/features/feature-5.svg"
+      "image": "assets/images/placeholders/features/feature-5.svg"
     },
     {
       "category": "PHARMACY",
       "title": "Inventory + GRN traceability",
       "desc": "Control stock and movement.",
-      "image": "assets/placeholders/features/feature-6.svg"
+      "image": "assets/images/placeholders/features/feature-6.svg"
     }
   ]
 }

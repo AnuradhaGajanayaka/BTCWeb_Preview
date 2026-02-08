@@ -23,7 +23,7 @@
         "Workflow"
       ],
       "category": "Guide",
-      "cover": "assets/blog/cover-1.svg"
+      "cover": "assets/images/blog/cover-1.svg"
     },
     {
       "slug": "reception-workflow-5-minutes",
@@ -35,7 +35,7 @@
         "Patient Experience"
       ],
       "category": "Operations",
-      "cover": "assets/blog/cover-2.svg"
+      "cover": "assets/images/blog/cover-2.svg"
     },
     {
       "slug": "bank-grade-security-for-clinics",
@@ -47,12 +47,12 @@
         "Management"
       ],
       "category": "Security",
-      "cover": "assets/blog/cover-3.svg"
+      "cover": "assets/images/blog/cover-3.svg"
     }
   ],
   "seo": {
     "title": "BISTEC Care Blog",
     "description": "Insights for modern clinics — workflows, reception efficiency, clinical documentation and security best practices.",
-    "ogImage": "assets/blog/cover-1.svg"
+    "ogImage": "assets/images/blog/cover-1.svg"
   }
 }

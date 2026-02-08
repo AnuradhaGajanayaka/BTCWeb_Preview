@@ -25,17 +25,17 @@
     {
       "name": "Priya Silva",
       "role": "Head of Operations",
-      "image": "assets/placeholders/avatar-1.svg"
+      "image": "assets/images/placeholders/avatar-1.svg"
     },
     {
       "name": "Saman Perera",
       "role": "Customer Success",
-      "image": "assets/placeholders/avatar-2.svg"
+      "image": "assets/images/placeholders/avatar-2.svg"
     },
     {
       "name": "Anjali Kumar",
       "role": "Lead Support",
-      "image": "assets/placeholders/avatar-3.svg"
+      "image": "assets/images/placeholders/avatar-3.svg"
     }
   ],
   "teamTitle": "Our team",

@@ -8,7 +8,7 @@
   "date": "2026-01-05",
   "readTime": "5 min read",
   "author": "BISTEC Care Team",
-  "cover": "assets/blog/cover-2.svg",
+  "cover": "assets/images/blog/cover-2.svg",
   "content": [
     {
       "type": "p",
@@ -36,6 +36,6 @@
   "seo": {
     "title": "Reception workflow: reduce waiting time in 5 steps \u2014 BISTEC Care Blog",
     "description": "Reception is where patient experience starts. A small delay at the front desk multiplies into stress for doctors and patients.",
-    "ogImage": "assets/blog/cover-2.svg"
+    "ogImage": "assets/images/blog/cover-2.svg"
   }
 }

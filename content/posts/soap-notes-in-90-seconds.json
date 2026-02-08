@@ -8,7 +8,7 @@
   "date": "2026-01-10",
   "readTime": "6 min read",
   "author": "BISTEC Care Team",
-  "cover": "assets/blog/cover-1.svg",
+  "cover": "assets/images/blog/cover-1.svg",
   "content": [
     {
       "type": "p",
@@ -43,6 +43,6 @@
   "seo": {
     "title": "SOAP notes in 90 seconds: a practical clinic workflow \u2014 BISTEC Care Blog",
     "description": "SOAP notes are not just documentation \u2014 they are how a clinic stays consistent across doctors, shifts and future follow-ups.",
-    "ogImage": "assets/blog/cover-1.svg"
+    "ogImage": "assets/images/blog/cover-1.svg"
   }
 }

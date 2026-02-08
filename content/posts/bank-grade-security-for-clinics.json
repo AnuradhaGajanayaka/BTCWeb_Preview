@@ -8,7 +8,7 @@
   "date": "2025-12-28",
   "readTime": "7 min read",
   "author": "BISTEC Care Team",
-  "cover": "assets/blog/cover-3.svg",
+  "cover": "assets/images/blog/cover-3.svg",
   "content": [
     {
       "type": "p",
@@ -36,6 +36,6 @@
   "seo": {
     "title": "Bank-grade security for clinics: what it means (and what to ask) \u2014 BISTEC Care Blog",
     "description": "Security isn\u2019t about technical jargon. It\u2019s about controlling access, preventing mistakes, and ensuring continuity.",
-    "ogImage": "assets/blog/cover-3.svg"
+    "ogImage": "assets/images/blog/cover-3.svg"
   }
 }

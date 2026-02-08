@@ -92,7 +92,7 @@
       <span class="rounded-full bg-white/80 border border-line px-3 py-1">By ${esc(post.author || "BISTEC Care")}</span>
     `;
 
-    cover.src = post.cover || "assets/blog/cover-1.png";
+    cover.src = post.cover || "assets/images/blog/cover-1.png";
     cover.alt = post.title;
 
     content.innerHTML = renderBlocks(post.content);

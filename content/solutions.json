@@ -53,7 +53,7 @@
       "k": "dental",
       "badge": "SPECIALTY",
       "title": "Dental Clinics",
-      "image": "assets/placeholders/solutions/dental-preview.svg",
+      "image": "assets/images/placeholders/solutions/dental-preview.svg",
       "desc": "Chair-side workflow, charting, planning, procedures.",
       "cta": "View solution →"
     },
@@ -61,7 +61,7 @@
       "k": "skin",
       "badge": "SPECIALTY",
       "title": "Skin / Aesthetic Clinics",
-      "image": "assets/placeholders/solutions/skin-preview.svg",
+      "image": "assets/images/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, packages, follow-ups, images and notes.",
       "cta": "View solution →"
     },
@@ -69,7 +69,7 @@
       "k": "channeling",
       "badge": "WORKFLOW",
       "title": "Channeling Centers",
-      "image": "assets/placeholders/solutions/channeling-preview.svg",
+      "image": "assets/images/placeholders/solutions/channeling-preview.svg",
       "desc": "Fast reception, scheduling, queue, and portal bookings.",
       "cta": "View solution →"
     },
@@ -77,7 +77,7 @@
       "k": "multi",
       "badge": "GROWING",
       "title": "AI Powered Smart Clinic",
-      "image": "assets/placeholders/solutions/multidoctor-preview.svg",
+      "image": "assets/images/placeholders/solutions/multidoctor-preview.svg",
       "desc": "AI tools that reduce admin work and improve clinical clarity.",
       "cta": "View solution →"
     },
@@ -85,7 +85,7 @@
       "k": "group",
       "badge": "SCALING",
       "title": "Multi-branch Groups",
-      "image": "assets/placeholders/solutions/multibranch-preview.svg",
+      "image": "assets/images/placeholders/solutions/multibranch-preview.svg",
       "desc": "Visibility across branches with controls and reporting.",
       "cta": "View solution →"
     },
@@ -93,7 +93,7 @@
       "k": "help",
       "badge": "NEED HELP?",
       "title": "Not sure which fits you?",
-      "image": "assets/placeholders/solutions/help-preview.svg",
+      "image": "assets/images/placeholders/solutions/help-preview.svg",
       "desc": "Book a quick call. We’ll guide you.",
       "cta": "Book a demo →"
     }
@@ -102,7 +102,7 @@
     "dental": {
       "title": "Dental Clinics",
       "previewTitle": "Dental preview",
-      "image": "assets/placeholders/solutions/dental-preview.svg",
+      "image": "assets/images/placeholders/solutions/dental-preview.svg",
       "desc": "Specialist chair-side workflow and dental planning.",
       "bullets": [
         "Dental charting and history",
@@ -116,7 +116,7 @@
     "skin": {
       "title": "Skin / Aesthetic Clinics",
       "previewTitle": "Skin preview",
-      "image": "assets/placeholders/solutions/skin-preview.svg",
+      "image": "assets/images/placeholders/solutions/skin-preview.svg",
       "desc": "Treatments, images, progress tracking, and planned follow-ups.",
       "bullets": [
         "Treatment planning",
@@ -129,7 +129,7 @@
     "channeling": {
       "title": "Channeling Centers",
       "previewTitle": "Channeling preview",
-      "image": "assets/placeholders/solutions/channeling-preview.svg",
+      "image": "assets/images/placeholders/solutions/channeling-preview.svg",
       "desc": "Smooth reception, fast scheduling, token flow, and bookings through portal — so your team handles less phone calls.",
       "cards": [
         {
@@ -150,7 +150,7 @@
     "multi": {
       "title": "AI Powered Smart Clinic",
       "previewTitle": "AI workflow preview",
-      "image": "assets/placeholders/solutions/multidoctor-preview.svg",
+      "image": "assets/images/placeholders/solutions/multidoctor-preview.svg",
       "desc": "Built-in AI tools to reduce repetitive work and make the patient journey smoother — without adding complexity.",
       "bullets": [
         "AI-generated patient summary",
@@ -164,7 +164,7 @@
     "group": {
       "title": "Multi-branch Groups",
       "previewTitle": "Multi-branch preview",
-      "image": "assets/placeholders/solutions/multibranch-preview.svg",
+      "image": "assets/images/placeholders/solutions/multibranch-preview.svg",
       "desc": "Standardize workflows, manage operational visibility, and keep staff access under control.",
       "cards": [
         {
